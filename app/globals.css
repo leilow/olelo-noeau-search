@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Red+Hat+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+  
+  nav {
+    @apply font-nav;
+  }
+}
+
+@layer components {
+  .link-text {
+    @apply font-mono text-[11pt] font-normal;
+  }
+  
+  .link-text:hover {
+    @apply font-bold underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+  
+  .tag-link {
+    @apply link-text;
+    @apply px-2 py-1 rounded-none;
+    transition: border-radius 0.2s ease;
+  }
+  
+  .tag-link:hover {
+    @apply rounded-full underline;
+    @apply font-normal;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+  
+  .button-base {
+    @apply bg-button text-text font-mono text-[11pt] font-normal px-4 py-2 rounded-none border-2 border-transparent;
+    transition: border-color 0.2s ease;
+  }
+  
+  .button-base:hover {
+    @apply border-highlight underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+  
+  mark {
+    @apply bg-highlight;
+    padding: 0;
+    border: 0.5px solid transparent;
+    border-radius: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}

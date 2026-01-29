@@ -1,0 +1,1115 @@
+phrase_number,category,tags
+4,places,Kaunuohua
+8,places,Ka'ula
+14,places,"Kapakai, Hawai'i"
+14,places,"Mo'okini, Hawai'i"
+14,places,"'Upolu Point, Hawai'i"
+16,places,"Puhili, Hawai'i"
+18,places,"Māna, Kaua'i"
+19,places,"Kakaniula, Maui"
+21,places,"Ha'upukele, Moloka'i"
+22,places,"Kamilo Beach, Hawai'i"
+25,places,"Ki'ilau, O'ahu"
+26,places,"Kiolaka'a, Hawai'i"
+27,places,"Waikīkī, O'ahu"
+28,places,"Kaiholena, Hawai'i"
+36,places,Hi'ialo
+36,places,Hi'ikua
+37,places,"Alanaio, Hawai'i"
+37,places,"Hilo, Hawai'i"
+37,places,"Kapoho, Hawai'i"
+37,places,"Laupāhoehoe, Hawai'i"
+37,places,"Puna, Hawai'i"
+37,places,"Uleki'i, Hawai'i"
+41,places,Lehua
+41,places,Ni'ihau
+43,places,"Ka'alu'alu, Hawai'i"
+44,places,"Kea'a, Hawai'i"
+46,places,"Puehuehu, Hawai'i"
+47,places,Koloa
+48,places,"Honalo, Hawai'i"
+50,places,'Ualaka'a
+51,places,"Alanaio, Hawai'i"
+51,places,"Pauki'i-nui, Hawai'i"
+51,places,"Pa'ula, Hawai'i"
+52,places,"Polihua, Lāna'i"
+55,places,"Kona, Hawai'i"
+56,places,Kahiki
+58,places,Kahiki
+61,places,Kahiki
+78,places,Ko'olau
+79,places,Kahiki
+79,places,"Puna, Hawai'i"
+80,places,"'Ewa, O'ahu"
+86,places,Kahiki
+88,places,Haleakalā
+88,places,"Honua'ula, Maui"
+88,places,"Kahikinui, Maui"
+88,places,"Kula, Maui"
+88,places,"Palauea, Maui"
+91,places,"Hilo, Hawai'i"
+95,places,"Kaumaika'ohu, Hawai'i"
+96,places,Haleakalā
+98,places,Kea'au
+101,places,"Mānoa, O'ahu"
+101,places,"Nu'uanu, O'ahu"
+105,places,"Pu'uloa, O'ahu"
+110,places,Kahewahewa
+110,places,"Waikīkī, O'ahu"
+112,places,"Kaunalewa, Kaua'i"
+114,places,"Kama'ole, Maui"
+115,places,Hakalau
+118,places,Kealahula
+118,places,Puahinahina
+121,places,Hale'au'au
+121,places,"Waialua, O'ahu"
+123,places,"'Ewa, O'ahu"
+127,places,"Halaaniani, Hawai'i"
+127,places,"Kamilo Beach, Hawai'i"
+127,places,"Puna, Hawai'i"
+132,places,"Niu-a-Kāne, Maui"
+144,places,Kahiki
+146,places,Hakalau'ai
+146,places,Keolewa
+148,places,"Uwekahuna, Hawai'i"
+149,places,Kahalahala
+149,places,Kolokini
+161,places,Māna
+171,places,Punahoa
+179,places,"Ho'okii, Hawai'i"
+184,places,"Kapukaki, O'ahu"
+195,places,Punalu'u Stream
+211,places,"Honomaka'u, Hawai'i"
+211,places,Kapua
+211,places,"Kōhala, Hawai'i"
+215,places,"Olowalu, Maui"
+228,places,"Hauiki, Hawai'i"
+232,places,"Kona, Hawai'i"
+233,places,"Lele'apiki, Hawai'i"
+233,places,"Nānāwale, Hawai'i"
+233,places,"Puna, Hawai'i"
+234,places,"Maunauna, O'ahu"
+248,places,"Hakipu'u, O'ahu"
+250,places,"Ka'u, Hawai'i"
+250,places,"Keaiwa, Hawai'i"
+255,places,"Ko'olihilihi, Hawai'i"
+260,places,"Ka'u, Hawai'i"
+260,places,"Puna, Hawai'i"
+261,places,"Honokāneiki, Hawai'i"
+261,places,"Kaka'auki, Hawai'i"
+269,places,"Kona, O'ahu"
+274,places,"Pu'uloa, O'ahu"
+285,places,"Mānoa, O'ahu"
+285,places,"Waikīkī, O'ahu"
+288,places,"Pu'uwa'awa'a, Hawai'i"
+298,places,Makawao
+301,places,"Malelewa'a, Kaua'i"
+306,places,Kahiki
+318,places,Lāna'i
+324,places,"Kuhiau, Kaua'i"
+330,places,"Hilo, Hawai'i"
+339,places,"'Aina'ike, Kaua'i"
+341,places,Waiohinu
+343,places,Ualoa
+352,places,"Mokaulele, Hawai'i"
+354,places,Ka'ula
+354,places,Ni'ihau
+357,places,Maui
+360,places,"Puna, Hawai'i"
+363,places,"Helumoa, O'ahu"
+363,places,"Wai'anae, O'ahu"
+363,places,"Waikīkī, O'ahu"
+368,places,Kaho'olawe
+368,places,Lāna'i
+385,places,"'Ewa, O'ahu"
+386,places,"'Ewa, O'ahu"
+391,places,Kemamo
+397,places,"Puna, Hawai'i"
+400,places,"Pu'u'ula, Hawai'i"
+404,places,"Halulu Lake, Kaua'i"
+404,places,"Hanalei, Kaua'i"
+404,places,Wai'ale'ale
+407,places,Kou
+411,places,Ka'ula
+411,places,Ni'ihau
+417,places,Pi'ilani
+419,places,Kalalau
+424,places,"Hilo, Hawai'i"
+430,places,"Lāhaina, Maui"
+432,places,"Halawa, Moloka'i"
+433,places,Halemano
+436,places,"Hilo, Hawai'i"
+438,places,"Hāmākua, Hawai'i"
+439,places,"Hāmākua, Hawai'i"
+440,places,"Hāmākua, Hawai'i"
+441,places,"Hāmākua, Hawai'i"
+444,places,"Puna, Hawai'i"
+448,places,"Hilo, Hawai'i"
+451,places,"Hana, Maui"
+460,places,"Hana, Maui"
+460,places,"Kaupō, Maui"
+460,places,"Ko'olau, Maui"
+462,places,"Hilo, Hawai'i"
+463,places,"Hanakahi, Hawai'i"
+463,places,"Hilo, Hawai'i"
+467,places,"Holoholokū, Kaua'i"
+468,places,"Haneo'o, Maui"
+470,places,"Wailau, Moloka'i"
+471,places,"Paliuli, Hawai'i"
+471,places,"Pana'ewa, Hawai'i"
+473,places,"Mokuola, Hawai'i"
+473,places,"Coconut Island, Hawai'i"
+474,places,"Hopoe, Hawai'i"
+479,places,"Līhu'e, O'ahu"
+482,places,'Aina-ko
+482,places,Malaekoa
+490,places,Kalalau
+490,places,Kauli'ili'i
+490,places,Līlali'i
+493,places,"'Ewa, O'ahu"
+496,places,"Hā'upu, Kaua'i"
+501,places,Hawai'i
+502,places,"Hawai'i, Island of"
+503,places,"Hawai'i, Island of"
+503,places,Kailua
+508,places,Konahuanui
+548,places,"Hawai'i, Island of"
+550,places,Ko'olau
+559,places,Kapaukua
+559,places,"Ka'u, Hawai'i"
+561,places,'Ī-halau
+561,places,"'Ī-ko'a, Hawai'i"
+571,places,"Waipi'o, Hawai'i"
+582,places,Alaka'i
+583,places,La'auhaele
+603,places,Kaho'olawe
+623,places,"Pi'iholo, Maui"
+624,places,"Kea'au, Hawai'i"
+624,places,"Puna, Hawai'i"
+625,places,"Kīpahulu, Maui"
+627,places,"Maunaloa, Moloka'i"
+627,places,"Paka'alana, Hawai'i"
+634,places,"Kalae, Moloka'i"
+652,places,"Ka'a'awa, O'ahu"
+653,places,"Kahana, O'ahu"
+654,places,"Leleiwi, Hawai'i"
+655,places,"Kahaloa, O'ahu"
+656,places,"Mamala, O'ahu"
+657,places,Kalia
+657,places,Ala Moana
+659,places,"Pana'ewa, Hawai'i"
+660,places,"Kapapa, O'ahu"
+661,places,"'Ewa, O'ahu"
+664,places,"Mānoa, O'ahu"
+665,places,"Kalae, Moloka'i"
+673,places,"'Ola'a, Hawai'i"
+682,places,"Hanauma, Hawai'i"
+682,places,"Ke'ei, Hawai'i"
+686,places,"Pu'ukapeie, Kaua'i"
+697,places,"'O'opuloa, Maui"
+708,places,"Kuloli, Hawai'i"
+714,places,"Ka'ala, O'ahu"
+724,places,"Kaukini, Hawai'i"
+728,places,Hāmākua
+731,places,"Kōloa, Hawai'i"
+732,places,Kawaihae
+738,places,"Hopoe, Hawai'i"
+742,places,"Kaunakakai, Moloka'i"
+744,places,Kealia
+746,places,"Nū'alolo, Kaua'i"
+748,places,Hōkūko'a
+755,places,"Halepua'a, Hawai'i"
+757,places,"Waimea, Hawai'i"
+758,places,"Kawainui Pond, O'ahu"
+758,places,O'ahu
+765,places,Mahamoku
+767,places,Kalehuawehe
+767,places,Kuaokala
+768,places,"'Ewa, O'ahu"
+768,places,"Kulaokahu'a, O'ahu"
+768,places,"Nu'uanu, O'ahu"
+768,places,O'ahu
+770,places,Wai'anae Mountains
+773,places,"Ka'u, Hawai'i"
+777,places,"Kahuwa, Hawai'i"
+777,places,"Waimea, Hawai'i"
+794,places,"Kaliuwa'a, O'ahu"
+797,places,"Kahuwa, Hawai'i"
+821,places,"Ka'a'awa, O'ahu"
+826,places,"Ka'u, Hawai'i"
+826,places,"Puna, Hawai'i"
+829,places,Hamohamo
+838,places,"Puna, Kaua'i"
+839,places,"Napo'opo'o, Hawai'i"
+845,places,Kaualehu
+866,places,"Kawainui Pond, O'ahu"
+875,places,"Kōhala, Hawai'i"
+902,places,"Kaholokuaiwa, Hawai'i"
+906,places,"Hawai'i, Island of"
+943,places,"'Ola'a, Hawai'i"
+952,places,Kaho'olawe
+982,places,Lāna'i
+986,places,Māna
+990,places,"Ha'eha'e, Hawai'i"
+990,places,Kūki'i
+994,places,"Ka'u, Hawai'i"
+994,places,"Puna, Hawai'i"
+995,places,"Ka'u, Hawai'i"
+995,places,"Puna, Hawai'i"
+997,places,"Hilo, Hawai'i"
+998,places,"Hilo, Hawai'i"
+999,places,"Hilo, Hawai'i"
+1000,places,"Hilo, Hawai'i"
+1001,places,"Hilo, Hawai'i"
+1002,places,"Hilo, Hawai'i"
+1003,places,"Hilo, Hawai'i"
+1004,places,"Hāmākua, Hawai'i"
+1004,places,"Hilo, Hawai'i"
+1004,places,"Maulua, Hawai'i"
+1004,places,"Mawae, Hawai'i"
+1005,places,"Hilo, Hawai'i"
+1006,places,"Hilo, Hawai'i"
+1009,places,"Kapaliwai'ole, Hawai'i"
+1014,places,"Pu'uloa, O'ahu"
+1016,places,"Honolulu, O'ahu"
+1016,places,"Nu'uanu, O'ahu"
+1018,places,"Kaunalewa, Kaua'i"
+1018,places,"Māna, Kaua'i"
+1023,places,"Pu'uloa, O'ahu"
+1028,places,"Waimea, Kaua'i"
+1029,places,"Ao, Maui"
+1029,places,"'Ī-ao, Maui"
+1030,places,"Hilea, Hawai'i"
+1030,places,"Punalu'u, Hawai'i"
+1032,places,"Kalia, O'ahu"
+1033,places,"Waolani, O'ahu"
+1037,places,"Kumukahi, Hawai'i"
+1039,places,Kaneoneo
+1044,places,Hamohamo
+1056,places,"Honokōhau, Maui"
+1057,places,"Honolua, Maui"
+1058,places,"Honua'ula, Maui"
+1059,places,"Honua'ula, Maui"
+1061,places,"Nānāwale, Hawai'i"
+1063,places,"Hawai'i, Kingdom of"
+1072,places,"Kona, Hawai'i"
+1075,places,"Waialoha, Kaua'i"
+1085,places,"'Ulupa'u, Maui"
+1091,places,"Kualoa, O'ahu"
+1097,places,"Makaweli, Kaua'i"
+1098,places,Wailohia
+1100,places,Mokupaoa
+1104,places,"Waineki, Kaua'i"
+1105,places,"Hilo, Hawai'i"
+1107,places,"Waipā, Kaua'i"
+1112,places,Waipuhi
+1113,places,"Kea'au, Hawai'i"
+1114,places,"Kekele, O'ahu"
+1117,places,Lele
+1125,places,Kapua
+1126,places,Awalau
+1126,places,"Pearl Harbor, O'ahu"
+1128,places,Kou
+1130,places,Waiehu
+1130,places,Wailua
+1136,places,"Launiupoko, Maui"
+1143,places,"Makahu'ena, Kaua'i"
+1144,places,"Maunaloa, Moloka'i"
+1151,places,"Hana, Maui"
+1151,places,"Ka'uiki, Maui"
+1153,places,"Halape, Hawai'i"
+1162,places,"Hikauhi, Moloka'i"
+1162,places,"Kaumanamana, Moloka'i"
+1162,places,"Kaunakakai, Moloka'i"
+1167,places,Kahiki
+1171,places,"Kōhala, Hawai'i"
+1173,places,Kaua'i
+1173,places,"Kaua'i-iki, Kaua'i"
+1173,places,"Kukuiolono Park, Kaua'i"
+1173,places,"Mai'aloa, Kaua'i"
+1173,places,"Wahiawā, Kaua'i"
+1178,places,Kahiki
+1179,places,"Hawai'i, Kingdom of"
+1179,places,Kahiki
+1203,places,"Māna, Kaua'i"
+1205,places,"Kaiholena, Hawai'i"
+1205,places,"Kehena, Hawai'i"
+1211,places,Kaneoneo
+1214,places,"Keawalua, Maui"
+1215,places,"Kokī, Moloka'i"
+1215,places,"Wailau, Moloka'i"
+1234,places,Kīlauea Crater
+1235,places,Kanikii
+1237,places,"'Ī-ao, Maui"
+1242,places,Kahiki
+1245,places,"Hilo, Hawai'i"
+1256,places,"Kōhala, Hawai'i"
+1257,places,"Ka'u, Hawai'i"
+1257,places,"Ka'uloa, Hawai'i"
+1257,places,"Palahemo, Hawai'i"
+1257,places,Waiohinu
+1258,places,Lāna'i
+1258,places,"Lāna'i Hale, Lāna'i"
+1258,places,"Lāna'i Ka'ula, Lāna'i"
+1259,places,"Kaupō, Maui"
+1262,places,Ulupa'upa'u
+1263,places,"'Ewa, O'ahu"
+1263,places,"Waialua, O'ahu"
+1268,places,"'A'alaloa, Maui"
+1272,places,"Honuakaha, O'ahu"
+1272,places,Kawaiaha'o Cemetery
+1278,places,"Kaueleau, Hawai'i"
+1280,places,"Kā'anapali, Maui"
+1281,places,"Kali'u, Hawai'i"
+1281,places,"Kali'u, Kaua'i"
+1282,places,Pua'ena
+1287,places,"Ka'ena, O'ahu"
+1289,places,"Hana, Maui"
+1290,places,"Wakiū, Maui"
+1291,places,"Upeloa, Hawai'i"
+1292,places,"Hāmākua, Hawai'i"
+1292,places,"Hilo, Hawai'i"
+1292,places,"Ka'u, Hawai'i"
+1292,places,"Puna, Hawai'i"
+1297,places,Kahana
+1300,places,"Kahauale'a, Hawai'i"
+1303,places,"Kainaliu, Hawai'i"
+1303,places,"Keauhou, Hawai'i"
+1303,places,"Ma'ihi, Hawai'i"
+1309,places,"Nu'uanu, O'ahu"
+1312,places,"Kaumaea, Hawai'i"
+1312,places,"Paiaha'a, Hawai'i"
+1313,places,"Kōhala, Hawai'i"
+1314,places,"Hau'ula, O'ahu"
+1314,places,Kahiki
+1317,places,Kaho'olawe
+1319,places,"Kahuku, O'ahu"
+1320,places,"Kahuku, Hawai'i"
+1321,places,Kalia
+1321,places,Ala Moana
+1330,places,"Honouliuli, O'ahu"
+1330,places,"Kaipapa'u, O'ahu"
+1331,places,"'Ewa, O'ahu"
+1338,places,"'Ainahou, O'ahu"
+1339,places,"Waimea, Kaua'i"
+1347,places,"Kaimū, Hawai'i"
+1347,places,"Kalapana, Hawai'i"
+1352,places,"Hilia, Moloka'i"
+1357,places,"'Ewa, O'ahu"
+1366,places,Ke'ehi
+1370,places,"Kuloloia, O'ahu"
+1373,places,"'Ulakoheo, O'ahu"
+1378,places,"Kalia, O'ahu"
+1388,places,"Kaihalulu, Maui"
+1388,places,"Ka'uiki, Maui"
+1395,places,"Hā'upu, Kaua'i"
+1395,places,"Kīpu, Kaua'i"
+1399,places,"Hanakāpī'ai, Kaua'i"
+1403,places,'Alio
+1404,places,"Kawa, Hawai'i"
+1404,places,"Kōloa, Hawai'i"
+1405,places,"'A'alamanu, Hawai'i"
+1406,places,"Kalaekimo (Kalaeokimo), Hawai'i"
+1408,places,"Kīpu, Kaua'i"
+1413,places,"Maunalua, O'ahu"
+1414,places,Lahainaluna School
+1420,places,"Kalae, Moloka'i"
+1423,places,"Honolulu, O'ahu"
+1425,places,"Hauola, Maui"
+1425,places,"Lāhaina, Maui"
+1426,places,O'ahu
+1428,places,Lahainaluna School
+1432,places,"Kalaoa, Hawai'i"
+1433,places,Kalalau
+1433,places,"Makana, Kaua'i"
+1435,places,"Kalaupapa, Moloka'i"
+1437,places,"Ka'ana, Moloka'i"
+1439,places,Pu'uloa
+1442,places,"Manu'akepa, Kaua'i"
+1443,places,Kawahine
+1443,places,"Kualoa, O'ahu"
+1446,places,"Kalauonaona, Hawai'i"
+1449,places,"Ka'u, Hawai'i"
+1450,places,"Kapa'a, Kaua'i"
+1451,places,Lele
+1453,places,"Ko'iahi, O'ahu"
+1455,places,"Kōhala, Hawai'i"
+1456,places,"Leleiwi, Hawai'i"
+1457,places,"Olowalu, Maui"
+1458,places,"Puna, Hawai'i"
+1459,places,"Pa'ia, Maui"
+1460,places,"Moanalua, O'ahu"
+1461,places,"Kaumaea, Hawai'i"
+1462,places,"Niua, Maui"
+1462,places,"Waihe'e, Maui"
+1463,places,"Kalia, O'ahu"
+1463,places,"Kīpahulu, Maui"
+1464,places,"Nu'uanu, O'ahu"
+1465,places,"Waikapū, Maui"
+1466,places,"Nā'alehu, Hawai'i"
+1467,places,"Kona, Hawai'i"
+1468,places,"Nu'uanu, O'ahu"
+1469,places,"Laupāhoehoe, Hawai'i"
+1473,places,"'Ī-ao, Maui"
+1473,places,Na-pali-kapu-o-Kaka'e
+1475,places,"Hū'ehu'ewai, Hawai'i"
+1475,places,"Kaimū, Hawai'i"
+1476,places,"Pōka'i, O'ahu"
+1476,places,"Wai'anae, O'ahu"
+1481,places,"Kama'oma'o, Maui"
+1482,places,"Halaaniani, Hawai'i"
+1482,places,"Kamilo Beach, Hawai'i"
+1483,places,Kawaihae
+1485,places,"Ha'upukele, Moloka'i"
+1486,places,"Mokule'ia, O'ahu"
+1489,places,Maui
+1490,places,"Pu'unui, O'ahu"
+1491,places,"Paliuli, Hawai'i"
+1493,places,Kalehuawehe
+1493,places,"Waikīkī, O'ahu"
+1494,places,"Pu'uhele, Maui"
+1501,places,"Paka'alana, Hawai'i"
+1502,places,"Kaipalaoa, Hawai'i"
+1503,places,"Honokōhau, Maui"
+1506,places,"Ka'u, Hawai'i"
+1508,places,Kapu'ukolu
+1510,places,"Mamala, O'ahu"
+1511,places,"Kealakomo, Hawai'i"
+1512,places,Kīlauea Crater
+1513,places,"Hā'upu, Kaua'i"
+1514,places,"Kama'oma'o, Maui"
+1517,places,"Hanakāpī'ai, Kaua'i"
+1521,places,"Ka'ena, O'ahu"
+1524,places,"Wai'anae, O'ahu"
+1525,places,"Noumea, New Hebrides"
+1526,places,"Kā'anapali, Maui"
+1528,places,"Ke'e, Kaua'i"
+1528,places,"Nū'alolo, Kaua'i"
+1529,places,"'Ī-ao, Maui"
+1530,places,Kīlauea Crater
+1531,places,"Makapu'u, O'ahu"
+1532,places,"Makana, Kaua'i"
+1533,places,"Molilele, Hawai'i"
+1534,places,Wailuku River
+1537,places,"'Ī-ao, Maui"
+1539,places,"Wailau, Moloka'i"
+1542,places,"Makana, Kaua'i"
+1548,places,"Mololani, O'ahu"
+1549,places,"Kīlauea, Hawai'i"
+1549,places,"'Ola'a, Hawai'i"
+1550,places,Waiohinu
+1551,places,"Hilo, Hawai'i"
+1552,places,"Pi'ihonua, Hawai'i"
+1555,places,Kaua'i
+1556,places,Kaua'i
+1557,places,"Ka'u, Hawai'i"
+1558,places,"Ka'u, Hawai'i"
+1559,places,"Ka'u, Hawai'i"
+1560,places,"Kea'au, Hawai'i"
+1561,places,He'eia
+1562,places,"Hilo, Hawai'i"
+1563,places,"Mololani, O'ahu"
+1564,places,Palawai
+1565,places,"Pāhala, Hawai'i"
+1566,places,"Hana, Maui"
+1567,places,"Hopoe, Hawai'i"
+1568,places,Hāmākua
+1569,places,"Punalu'u, O'ahu"
+1570,places,"Pana'ewa, Hawai'i"
+1571,places,"Waimea, Hawai'i"
+1572,places,"Kalihi, O'ahu"
+1573,places,"Ka'ala, O'ahu"
+1574,places,"Mānoa, O'ahu"
+1575,places,"Honolulu, O'ahu"
+1576,places,"Kama'oa, Hawai'i"
+1577,places,"Lanakila, Maui"
+1578,places,"Hana, Maui"
+1579,places,"'Ulupālakua, Maui"
+1580,places,"Rainbow Falls, Hawai'i"
+1581,places,"Kā'anapali, Maui"
+1582,places,"Pahoa, Hawai'i"
+1583,places,"Kā'anapali, Maui"
+1584,places,"Hanalei, Kaua'i"
+1585,places,"Pana'ewa, Hawai'i"
+1586,places,"Halele'a, Kaua'i"
+1587,places,"Puna, Hawai'i"
+1588,places,Kawaihae
+1589,places,"Moelana, O'ahu"
+1590,places,Wai'ale'ale
+1591,places,"Waimea, Kaua'i"
+1593,places,"Waimea, Hawai'i"
+1594,places,"Lāhaina, Maui"
+1595,places,"Kaupō, Maui"
+1597,places,"Hāmākua, Maui"
+1598,places,"Kahalu'u, O'ahu"
+1599,places,"Kumaka, Kaua'i"
+1601,places,"Nu'uanu, O'ahu"
+1602,places,Makawao
+1604,places,"Waipi'o, Hawai'i"
+1605,places,"Ka'u, Hawai'i"
+1607,places,"Hilo, Hawai'i"
+1608,places,Kapua
+1609,places,"Ka'alu'alu, Hawai'i"
+1610,places,"Palahemo, Hawai'i"
+1619,places,Pohina
+1620,places,"Ka'u, Hawai'i"
+1621,places,Wai'ale'ale
+1623,places,"Oneawa, O'ahu"
+1625,places,"Honolulu, O'ahu"
+1625,places,"Lāhaina, Maui"
+1628,places,"'Oki'okiaho, Hawai'i"
+1635,places,"Kaupō, Maui"
+1636,places,"Kāneiahuea, Hawai'i"
+1638,places,"Ka'ana, Hawai'i"
+1638,places,"Kea'au, Hawai'i"
+1638,places,"'Ola'a, Hawai'i"
+1642,places,"Halaaniani, Hawai'i"
+1642,places,"Kamilo Beach, Hawai'i"
+1643,places,"Ka'ala, O'ahu"
+1643,places,Wai'anae Mountains
+1647,places,Kawaihae
+1648,places,"Wailua, Kaua'i"
+1649,places,"'Eleile, Maui"
+1652,places,"Kewalo, O'ahu"
+1653,places,Kīlauea Crater
+1653,places,Lehua
+1653,places,Ni'ihau
+1655,places,"Kawaihapai, O'ahu"
+1655,places,Kawaikumu'ole
+1657,places,"Māna, Kaua'i"
+1658,places,"Wailuku, Hawai'i"
+1659,places,Waiohinu
+1660,places,"Kawaipapa, Maui"
+1661,places,"Helani, Hawai'i"
+1662,places,Makaweli Stream
+1662,places,"Waimea, Kaua'i"
+1662,places,Waimea River
+1663,places,"Mokoli'i, O'ahu"
+1663,places,Chinaman's Hat
+1665,places,"Lanihuli, O'ahu"
+1666,places,Kaupe'a
+1668,places,"Kea'au, Hawai'i"
+1669,places,"Kamaile, Kaua'i"
+1669,places,"Nāpali, Kaua'i"
+1670,places,Kaunuohua
+1672,places,"Nū'alolo, Kaua'i"
+1674,places,"Kealakaha, Maui"
+1674,places,"Keka'a, Maui"
+1674,places,Waiāhole
+1675,places,"'A'alaloa, Maui"
+1676,places,"Kaluako'i, Moloka'i"
+1678,places,"Kamilo Beach, Hawai'i"
+1679,places,Haleakalā
+1680,places,"Māna, Kaua'i"
+1682,places,"Keauhou, Hawai'i"
+1683,places,"Keauhou, Hawai'i"
+1684,places,"Mahukona, Hawai'i"
+1685,places,Kou
+1686,places,"Pu'uloa, O'ahu"
+1689,places,Pua'ena
+1690,places,"Kona, Hawai'i"
+1693,places,Hihimanu
+1694,places,"Honu'apo, Hawai'i"
+1695,places,"Kaleinapueo, Hawai'i"
+1695,places,"Manuka, Hawai'i"
+1695,places,"Palahemo, Hawai'i"
+1698,places,Awalau
+1699,places,"Kumukahi, Hawai'i"
+1703,places,"Lāhaina, Maui"
+1704,places,"Nā'alehu, Hawai'i"
+1705,places,Makawao
+1706,places,"Kumukahi, Hawai'i"
+1707,places,La'a
+1707,places,"'Ola'a, Hawai'i"
+1708,places,"Kaluako'i, Moloka'i"
+1708,places,Ka'ula
+1709,places,"'Ohaikea, Hawai'i"
+1711,places,"Wailuku, Maui"
+1713,places,"'Īoli, Moloka'i"
+1714,places,"Ka'ala, O'ahu"
+1716,places,"Kekaha, Hawai'i"
+1718,places,"Mamala, O'ahu"
+1719,places,Kawaihae
+1720,places,"Puakea, Hawai'i"
+1721,places,"'Ewa, O'ahu"
+1721,places,"Pearl Harbor, O'ahu"
+1722,places,"Kahului, Maui"
+1723,places,Ke'ehi
+1724,places,"Makaiwa, Kaua'i"
+1725,places,"Pana'ewa, Hawai'i"
+1725,places,"Puna, Hawai'i"
+1726,places,"Po'o, Kaua'i"
+1727,places,"Mokoli'i, O'ahu"
+1727,places,Chinaman's Hat
+1728,places,"Paikaka, Hawai'i"
+1730,places,"Keahole, Hawai'i"
+1731,places,"Kona, Hawai'i"
+1732,places,"Kalihi, O'ahu"
+1732,places,"Pu'uhale, O'ahu"
+1734,places,"Kalia, O'ahu"
+1735,places,Waiāhole
+1736,places,"Kapa'a, Kaua'i"
+1742,places,"Kaumaea, Hawai'i"
+1742,places,"Paiaha'a, Hawai'i"
+1743,places,"Kaumaea, Hawai'i"
+1744,places,"Ma'alo, Maui"
+1748,places,"Waimea, Hawai'i"
+1752,places,"Halali'i, Ni'ihau"
+1752,places,Ni'ihau
+1755,places,"Kona, Hawai'i"
+1756,places,Wai'ale'ale
+1758,places,Kahiki
+1759,places,"Makaiwa, Kaua'i"
+1761,places,"Kama'oma'o, Maui"
+1762,places,"Kama'oa, Hawai'i"
+1763,places,Lāna'i
+1763,places,Maui
+1763,places,Moloka'i
+1763,places,O'ahu
+1766,places,Wai'ōpua
+1770,places,"Nānāwale, Hawai'i"
+1772,places,"Hawai'i, Kingdom of"
+1772,places,O'ahu
+1772,places,"Waikīkī, O'ahu"
+1773,places,Waiākea
+1773,places,"Waiolama, Hawai'i"
+1774,places,"Barking Sands, Kaua'i"
+1774,places,"Nohili, Kaua'i"
+1775,places,Kahamalu'ihi
+1775,places,"Kona, Kaua'i"
+1775,places,"Māna, Kaua'i"
+1775,places,"Waimea, Kaua'i"
+1776,places,"'Ewa, O'ahu"
+1776,places,"Waikele, O'ahu"
+1776,places,"Waikīkī, O'ahu"
+1778,places,"Lumaha'i, Kaua'i"
+1778,places,"Waimea, O'ahu"
+1779,places,"Mo'ohelaia, Moloka'i"
+1780,places,"'Ohele, Hawai'i"
+1781,places,"'Ī-ao, Maui"
+1784,places,"Ka'uiki, Maui"
+1784,places,Kealakona
+1787,places,"Kaupoku-o-Hanalei, Kaua'i"
+1792,places,"Kalena, O'ahu"
+1799,places,"Ha'ena, Kaua'i"
+1801,places,Kailua
+1801,places,"Kāne'ohe, O'ahu"
+1805,places,"Hilia, Moloka'i"
+1813,places,"Kōhala, Hawai'i"
+1814,places,"Kōhala, Hawai'i"
+1815,places,"Kōhala, Hawai'i"
+1816,places,"Honoke'a, Hawai'i"
+1816,places,"Keahualono, Hawai'i"
+1816,places,"Kōhala, Hawai'i"
+1817,places,"Kanaio, Maui"
+1819,places,"Kalae, Hawai'i"
+1824,places,"Kula, Maui"
+1829,places,Alaska
+1829,places,Kahiki
+1835,places,"Kealapi'iaka'opae, Moloka'i"
+1837,places,Alaka'i
+1839,places,"Kona, Hawai'i"
+1840,places,"Kona, Hawai'i"
+1841,places,"Honua'ino, Hawai'i"
+1841,places,"Kona, Hawai'i"
+1842,places,"Kona, Hawai'i"
+1843,places,"Kona, Hawai'i"
+1844,places,"Kona, Hawai'i"
+1845,places,"Kawaihoa, O'ahu"
+1845,places,Koko Head
+1845,places,"Kona, O'ahu"
+1845,places,Red Hill
+1846,places,"Kona, Hawai'i"
+1847,places,"Kona, Hawai'i"
+1848,places,"Olowalu, Maui"
+1849,places,"Manila, Philippines"
+1850,places,"Ko'olau, Maui"
+1851,places,"Ko'olau, Maui"
+1855,places,"'Ewa, O'ahu"
+1858,places,Keahumoa
+1865,places,Lele
+1872,places,Mamalaka
+1885,places,"Hawai'i, Island of"
+1887,places,Ka-wai-hu-o-Kauila
+1887,places,"Punalu'u, Hawai'i"
+1891,places,"Nu'uanu, O'ahu"
+1893,places,"Hale-o-Keawe, Hawai'i"
+1893,places,"Hōnaunau, Hawai'i"
+1897,places,"Kaupō, Maui"
+1898,places,"'Apua, Hawai'i"
+1902,places,"Kahuwa, Hawai'i"
+1905,places,"Kona, Kaua'i"
+1908,places,"Māna, Kaua'i"
+1909,places,"Māna, Kaua'i"
+1911,places,"Kula, Maui"
+1919,places,"Polelewa, O'ahu"
+1920,places,"Pu'u'enuhe, Hawai'i"
+1923,places,Ka'ula
+1924,places,Nihoa
+1925,places,Weloka
+1930,places,"Ke'e, Kaua'i"
+1931,places,"Kānehoa, O'ahu"
+1935,places,"Ho'olehua, Moloka'i"
+1936,places,"Lāhaina, Maui"
+1938,places,"La'ie, O'ahu"
+1939,places,"Hauola, Maui"
+1943,places,Lāna'i
+1949,places,"Makana, Kaua'i"
+1950,places,"Malama, Hawai'i"
+1961,places,Lehua
+1962,places,America
+1962,places,Maleka
+1963,places,"Kukuau, Hawai'i"
+1963,places,"Pu'ueo, Hawai'i"
+1969,places,"Hanakahi, Hawai'i"
+1969,places,"Pana'ewa, Hawai'i"
+1972,places,"Mahiki, Hawai'i"
+1973,places,"Kōhala, Hawai'i"
+1975,places,"Kōhala, Hawai'i"
+1976,places,Kona
+1976,places,Ko'olau
+1981,places,Kahiki
+1984,places,"Kapaheo, Hawai'i"
+1988,places,"Kōhala, Hawai'i"
+1989,places,"Nū'alolo, Kaua'i"
+1990,places,"Hana, Maui"
+1990,places,"Wailau, Moloka'i"
+1991,places,"Līhu'e, O'ahu"
+1998,places,"Haua'iliki, Kaua'i"
+1999,places,"Hanakahi, Hawai'i"
+2000,places,"Ka'ena, O'ahu"
+2000,places,"Waialua, O'ahu"
+2012,places,'Alio
+2012,places,Hauola
+2025,places,"Pa'ie'ie, Hawai'i"
+2033,places,"Hanakahi, Hawai'i"
+2034,places,Alaka'i
+2034,places,"Hanalei, Kaua'i"
+2038,places,Alaka'i
+2040,places,"Mahukona, Hawai'i"
+2044,places,Kīlauea Crater
+2046,places,"Kona, Hawai'i"
+2054,places,'O'okuauli
+2058,places,"Kumukahi, Hawai'i"
+2058,places,Lehua
+2060,places,Kaua'i
+2063,places,"Ha'eha'e, Hawai'i"
+2063,places,Lehua
+2064,places,"Kumukahi, Hawai'i"
+2064,places,Lehua
+2070,places,"Kea'au, Hawai'i"
+2070,places,Lehua
+2070,places,"Waikii'auhoe, Kaua'i"
+2075,places,"Ko'iahi, O'ahu"
+2094,places,"Keone'o'io, Maui"
+2095,places,"Makalawena, Hawai'i"
+2097,places,Kawaihae
+2097,places,"Mahukona, Hawai'i"
+2097,places,"Pu'ukohola, Hawai'i"
+2103,places,Lāna'i
+2112,places,"Kawaihapai, O'ahu"
+2112,places,"Makaha, O'ahu"
+2112,places,"Makua, O'ahu"
+2112,places,"Mokule'ia, O'ahu"
+2113,places,"Waolani, O'ahu"
+2114,places,Kona
+2118,places,Kailua
+2124,places,Haleakalā
+2124,places,"Hana, Maui"
+2124,places,"Kaiholoka, Maui"
+2128,places,"Malolokai, O'ahu"
+2128,places,"Wai'anae, O'ahu"
+2134,places,"Kona, Hawai'i"
+2135,places,"Kalamaihiki, Kaua'i"
+2135,places,"Kolo, Kaua'i"
+2135,places,"Māna, Kaua'i"
+2136,places,"Māna, Kaua'i"
+2139,places,"Mānoa, O'ahu"
+2139,places,Punahou School
+2139,places,Pu'u Luahine
+2139,places,Rocky Hill
+2140,places,"Honokōhau, Maui"
+2142,places,Mokupaoa
+2143,places,Maui
+2144,places,Maui
+2145,places,Maui
+2147,places,"Mauna Kea, Hawai'i"
+2151,places,"Hanalei, Kaua'i"
+2152,places,"Pu'uloa, O'ahu"
+2153,places,Ko'olau
+2154,places,"Hanakahi, Hawai'i"
+2154,places,"Kona, Hawai'i"
+2164,places,"Ho'olehua, Moloka'i"
+2170,places,"Kula, Maui"
+2176,places,Ni'ihau
+2177,places,Kalae'oi'o
+2184,places,"Maunahina, Kaua'i"
+2187,places,"Paliuli, Hawai'i"
+2188,places,Ku'unaakeakua
+2190,places,Kalalau
+2191,places,"Kalawao, Moloka'i"
+2200,places,Pailolo Channel
+2201,places,Ka'ie'ie Channel
+2202,places,"Mamala, O'ahu"
+2205,places,"Napo'opo'o, Hawai'i"
+2206,places,"Waolani, O'ahu"
+2207,places,"'Ī-ao, Maui"
+2211,places,"Kekele, O'ahu"
+2212,places,"Naue, Kaua'i"
+2215,places,"Nahiku, Maui"
+2216,places,"Nahiku, Maui"
+2219,places,"Polihua, Lāna'i"
+2220,places,"Kōhala, Hawai'i"
+2221,places,America
+2221,places,Maleka
+2225,places,"Kalae, Hawai'i"
+2232,places,"Kalaupapa, Moloka'i"
+2232,places,"Keonepoko, Hawai'i"
+2236,places,'Aina Pua
+2236,places,Flowery Kingdom
+2237,places,"Honoma'ele, Maui"
+2237,places,"Waipouli, Kaua'i"
+2238,places,"Kula, Maui"
+2241,places,Kapu'ukolu
+2244,places,"Nā'alehu, Hawai'i"
+2245,places,"Kahana, O'ahu"
+2250,places,"Līhau, Maui"
+2251,places,"Lulu'upali, Kaua'i"
+2252,places,"Mokaulele, Hawai'i"
+2253,places,"Ninauapo, O'ahu"
+2255,places,"Kawehewehe, O'ahu"
+2258,places,Kawaihae
+2262,places,"Ka'alu'alu, Hawai'i"
+2263,places,"Waikākalaua, O'ahu"
+2264,places,"Pana'ewa, Hawai'i"
+2266,places,Ho'ohila
+2272,places,"Kahuku, O'ahu"
+2273,places,"Ka'ala, O'ahu"
+2276,places,"Kōhala, Hawai'i"
+2277,places,Diamond Head
+2277,places,Kahiki
+2277,places,Le'ahi
+2280,places,"Kalapana, Hawai'i"
+2281,places,"Mokuola, Hawai'i"
+2281,places,"Coconut Island, Hawai'i"
+2283,places,South Sea
+2284,places,"Waipi'o, Hawai'i"
+2285,places,"Ko'olau, O'ahu"
+2286,places,"Kahakuloa, Maui"
+2287,places,Kalalau
+2290,places,"Pūila'a, Hawai'i"
+2292,places,"Kalahikiola, Hawai'i"
+2292,places,"Pili, Hawai'i"
+2297,places,Ni'ihau
+2299,places,"Nu'uanu, O'ahu"
+2300,places,"Waiehu, Maui"
+2300,places,"Waihe'e, Maui"
+2300,places,"Waikapū, Maui"
+2300,places,"Wailuku, Maui"
+2305,places,Punahoa
+2306,places,Punahoa
+2311,places,Nihoa
+2312,places,Ni'ihau
+2313,places,Ni'ihau
+2314,places,Ni'ihau
+2315,places,Lāna'i
+2315,places,Moloka'i
+2320,places,"Hanamā'ulu, Kaua'i"
+2330,places,"Ka'alu'alu, Hawai'i"
+2334,places,"Kaipapa'u, O'ahu"
+2335,places,"Kalae, Hawai'i"
+2338,places,Kūki'i
+2339,places,"Kula, Maui"
+2340,places,"Miloli'i, Hawai'i"
+2344,places,"Pelekunu, Moloka'i"
+2347,places,"Limahuli, Kaua'i"
+2347,places,"Lulu'upali, Kaua'i"
+2351,places,"Kahului, Maui"
+2352,places,O'ahu
+2353,places,O'ahu
+2354,places,O'ahu
+2355,places,"'Alelele, Maui"
+2355,places,Makawao
+2356,places,"Kalapana, Hawai'i"
+2357,places,"'Ewa, O'ahu"
+2358,places,"Papiohuli, Kaua'i"
+2359,places,"Hana, Maui"
+2363,places,"Kapa'au, Hawai'i"
+2364,places,Kaunu
+2365,places,"'Ainakea, Hawai'i"
+2365,places,"Kapa'au, Hawai'i"
+2365,places,"Kōhala, Hawai'i"
+2374,places,"Honoli'i, Hawai'i"
+2375,places,"Honu'apo, Hawai'i"
+2379,places,Halemano
+2380,places,Ka-wai-hu-o-Kauila
+2380,places,"Punalu'u, Hawai'i"
+2387,places,Kūmanomano
+2392,places,"Ha'ena, Kaua'i"
+2392,places,"Kamaile, Kaua'i"
+2393,places,"Maui, East"
+2409,places,"Miloli'i, Hawai'i"
+2433,places,"Makaiwa, Kaua'i"
+2434,places,"Kokī-o-Wailau, Moloka'i"
+2435,places,"Hawai'i, Kingdom of"
+2440,places,Kaua'i
+2447,places,"Ke'anae, Maui"
+2447,places,"Kula, Maui"
+2462,places,"Makanoni, Hawai'i"
+2465,places,Waialoha
+2467,places,"Kilohana, Kaua'i"
+2467,places,"Ko'olau, Kaua'i"
+2467,places,"Līhu'e, Kaua'i"
+2468,places,"Barking Sands, Kaua'i"
+2468,places,"Nohili, Kaua'i"
+2472,places,"Paiaha'a, Hawai'i"
+2473,places,"Kula, Maui"
+2475,places,Kīlauea Crater
+2478,places,"Kekaha, Hawai'i"
+2480,places,"Kolo, Kaua'i"
+2486,places,Kou
+2486,places,"Nu'uanu, O'ahu"
+2494,places,Kaua'i
+2495,places,"Ka'ena, O'ahu"
+2495,places,"Wai'anae, O'ahu"
+2502,places,"Olowalu, Maui"
+2512,places,Moeawakea
+2514,places,"Waimanu, Hawai'i"
+2515,places,"Pa'aiea, Hawai'i"
+2519,places,"Kaupō, Maui"
+2525,places,Hā'upu
+2529,places,"Hanakāpī'ai, Kaua'i"
+2530,places,"Kaumaea, Hawai'i"
+2530,places,"Paiaha'a, Hawai'i"
+2531,places,Waimea
+2534,places,"Hopoe, Hawai'i"
+2535,places,"Mokumanu, O'ahu"
+2535,places,Po'o
+2542,places,Kaupe'a
+2546,places,Waiohinu
+2547,places,"Waimanu, Hawai'i"
+2547,places,"Waipi'o, Hawai'i"
+2548,places,"Hana, Maui"
+2548,places,"Ka'uiki, Maui"
+2548,places,"Punahoa, Maui"
+2548,places,"Wananalua, Maui"
+2560,places,Kaua'i
+2560,places,Lāna'i
+2560,places,O'ahu
+2563,places,"Malama, Hawai'i"
+2564,places,Ka'ena
+2567,places,"Pāhala, Hawai'i"
+2568,places,"Polihale, Kaua'i"
+2578,places,"Kahului, Maui"
+2578,places,"Kanaha, Maui"
+2578,places,"Mau'oni, Maui"
+2580,places,Kaho'olawe
+2580,places,"Ma'alaea, Maui"
+2590,places,Maka'ukiu
+2602,places,"Holoholokū, Kaua'i"
+2602,places,"Ka-pela-kapu-o-Kaka'e, Maui"
+2602,places,"Kūkaniloko, O'ahu"
+2602,places,"Waipi'o, Hawai'i"
+2611,places,Aipo
+2616,places,"Ka'uiki, Maui"
+2620,places,Kaupe'a
+2623,places,"Hāmākualoa, Maui"
+2627,places,"Niuli'i, Hawai'i"
+2628,places,"Upeloa, Hawai'i"
+2631,places,"Ha'akua, Hawai'i"
+2631,places,"Pu'ueo, Hawai'i"
+2631,places,Wailuku River
+2647,places,"Wailuku, Maui"
+2653,places,"Kamananui, O'ahu"
+2654,places,Papa'ena'ena
+2656,places,"Maniniholo, Kaua'i"
+2656,places,"Piliwale, Moloka'i"
+2666,places,Kūki'i
+2669,places,"Ka'uiki, Maui"
+2673,places,Kīlauea Crater
+2673,places,"Malama, Hawai'i"
+2676,places,"Pohakupili, Moloka'i"
+2677,places,"Ka'akeke, Moloka'i"
+2677,places,"Ualapu'e, Moloka'i"
+2687,places,"Mauna Kea, Hawai'i"
+2694,places,Ka'ula
+2695,places,Kawaihae
+2698,places,Moloka'i
+2706,places,"Kahauiki, O'ahu"
+2706,places,"Kahaunui, O'ahu"
+2714,places,"Haua'iliki, Kaua'i"
+2727,places,Māna
+2728,places,Kalihi Stream
+2729,places,Lehua
+2731,places,"Kahuku, O'ahu"
+2731,places,"Waipahu, O'ahu"
+2736,places,"Makuaiki, Kaua'i"
+2740,places,America
+2740,places,Maleka
+2746,places,"Punalu'u, Hawai'i"
+2747,places,"Mawae, Hawai'i"
+2747,places,"'Oki'okiaho, Hawai'i"
+2752,places,"Uko'a, O'ahu"
+2753,places,"Ke'ei, Hawai'i"
+2756,places,"Papalaua, Moloka'i"
+2763,places,Kekaha
+2770,places,"'Ewa, O'ahu"
+2774,places,"Uwekahuna, Hawai'i"
+2780,places,Hā'upu
+2783,places,Moeawakea
+2788,places,Awalua
+2793,places,Israel
+2800,places,"Papakōlea, O'ahu"
+2810,places,"Kalepolepo, Maui"
+2815,places,Kahiki
+2819,places,Wai'apuka
+2823,places,"Hā'upu, Kaua'i"
+2826,places,"Paikaka, Hawai'i"
+2833,places,"Honopii, Kaua'i"
+2835,places,Wailuku River
+2842,places,"Nānāwale, Hawai'i"
+2846,places,"Ford Island, O'ahu"
+2846,places,"Poka 'Ailana, O'ahu"
+2848,places,"Maunawili, O'ahu"
+2856,places,"Nu'uanu, O'ahu"
+2859,places,"Kapapala, Hawai'i"
+2860,places,"Namolokama Falls, Kaua'i"
+2866,places,"Kahikinui, Maui"
+2868,places,Lahainaluna School
+2869,places,"Liliko'i, Maui"
+2869,places,Makawao
+2874,places,"Māna, Kaua'i"
+2879,places,Kalama'ula
+2879,places,Kaunalewa
+2901,places,Waiākea
+2902,places,"Waialua, O'ahu"
+2904,places,"'A'alaloa, Maui"
+2904,places,"Kapulehua, Maui"
+2904,places,"Waiehu, Maui"
+2905,places,"Kaiolohia, Moloka'i"
+2906,places,"Kaea, Hawai'i"
+2906,places,"Kahuwa, Hawai'i"
+2906,places,"Pololū, Hawai'i"
+2907,places,"Kalaupapa, Moloka'i"
+2910,places,Kekaha
+2910,places,"Makaweli, Kaua'i"
+2910,places,"Māna, Kaua'i"
+2910,places,"Pōki'i, Kaua'i"
+2910,places,"Waimea, Kaua'i"
+2911,places,"Waikapū, Maui"
+2912,places,"Wailuku, Maui"
+2913,places,"Waimea, Hawai'i"
+2917,places,"Waiakekua, O'ahu"
+2918,places,"Makaho, O'ahu"
+2918,places,"Niuhelewai, O'ahu"
+2918,places,"Palama, O'ahu"
+2918,places,"Waipi'o, O'ahu"
+2919,places,"Kaunakakai, Moloka'i"
+2920,places,"Kawainui Pond, O'ahu"
+2920,places,"Pu'ukapeie, Kaua'i"
+2921,places,Ka'ula
+2922,places,Hihimanu
+2923,places,"Kaluli, Maui"
+2923,places,"Pu'u'ohala, Maui"
+2939,places,"Kalae, Hawai'i"
+,places,Honolulu Harbor

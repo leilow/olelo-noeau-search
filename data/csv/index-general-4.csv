@@ -1,0 +1,2494 @@
+phrase_number,category,tags
+2,general,Shyness
+2,general,Skill (see also expert)
+4,general,"'Ewa, seeking of"
+4,general,'Ewa
+8,general,"Of bad luck, of storm"
+8,general,"Of bad luck, of  trouble"
+8,general,Of bad luck
+10,general,Nonsense
+10,general,Resistance
+11,general,Mouth
+11,general,Riddling
+15,general,Pinworms
+15,general,Rude (see also manners)
+16,general,"Nets, fish"
+16,general,Nets
+17,general,Rude (see also manners)
+19,general,Pi'ipi'i (warriors of Hawai'i)
+20,general,Revelation
+20,general,Riddling
+20,general,Secret (see also concealment)
+20,general,"Seen, all is"
+21,general,Obvious
+22,general,Modesty
+23,general,Planning
+23,general,Prudence
+24,general,Plains
+25,general,Nonsense
+26,general,"Possessions, discarded"
+26,general,Possessions
+26,general,Regret
+30,general,Never
+30,general,Prophet
+31,general,Skill (see also expert)
+35,general,"Possessions, mislaid"
+35,general,Possessions
+36,general,Proximity
+37,general,Penis
+37,general,Pinworms
+37,general,"Of bad luck, disappointment"
+37,general,Of bad luck
+41,general,"Roots, tap"
+41,general,Roots
+42,general,Signs
+42,general,"Of bad luck, reading of"
+42,general,Of bad luck
+49,general,Plains
+50,general,Rootless
+51,general,Mouth
+51,general,Pinworms
+52,general,Pro of
+53,general,Noise
+54,general,"Problems (see also difficulties, trouble)"
+55,general,Rain of Kona
+55,general,Signs of rain
+55,general,"Of bad luck, of rain"
+55,general,Of bad luck
+56,general,Prosperity
+56,general,'Ewa
+58,general,"Prosperity, in care of gods"
+58,general,Prosperity
+60,general,Mouth
+63,general,Narrowness
+63,general,Planning
+64,general,Selfishness
+67,general,Music
+70,general,Repayment/return
+70,general,Response
+73,general,Nose
+77,general,"'Ewa, seeking of"
+77,general,'Ewa
+82,general,"Mouth, itching"
+82,general,Mouth
+83,general,Relaxation
+83,general,Repair
+84,general,Reciprocity
+84,general,Retribution
+85,general,Rat
+86,general,Prosperity
+86,general,'Ewa
+88,general,"Pigs, stealing of"
+88,general,Pigs
+88,general,Rebellion
+90,general,Protection
+90,general,Shelter (see also protection)
+93,general,Rainbow
+93,general,Of bad luck
+94,general,"Progress, lack of"
+94,general,Progress
+95,general,Obvious
+95,general,"Seen, all is"
+96,general,Obvious
+97,general,Missionaries
+97,general,Propriety
+97,general,Self-indulgence
+98,general,Nudity
+99,general,Selfishness
+100,general,"Months, Hi/ina"
+100,general,Preparation
+100,general,Procrastination
+100,general,Rain of Hilinehu
+100,general,Rain of winter
+101,general,Rain of Manoa
+103,general,Selfishness
+105,general,Protection
+106,general,"Prosperity, attraction of"
+106,general,Prosperity
+107,general,Scavengers
+108,general,"Night, noise in the"
+108,general,Night
+108,general,Noise
+110,general,Patience
+111,general,"Possessions, mislaid"
+111,general,Possessions
+111,general,Sandals
+112,general,Possessions
+112,general,Scrotum
+113,general,Reciprocity
+114,general,Kama'ole
+115,general,"Prayers, common enemy"
+115,general,Prayers
+118,general,"Pu'uhale, rough"
+118,general,Pu'uhale
+118,general,Of bad luck
+120,general,"Nets, fish"
+120,general,Nets
+120,general,"Night, cold"
+120,general,Night
+121,general,"Pu'uhale, rough"
+121,general,Pu'uhale
+123,general,Silence
+125,general,Opportunity
+126,general,"Of bad luck, of death"
+126,general,Of bad luck
+129,general,Recreation
+130,general,Self-incrimination
+134,general,Puhenehene (game)
+135,general,"Mourning (see also burial, death, grief)"
+136,general,Protection
+136,general,Safety
+137,general,"Night, darkness of"
+137,general,Night
+139,general,Relaxation
+140,general,Pillow
+140,general,Relaxation
+141,general,"Reward, just"
+141,general,Reward
+143,general,Patience
+145,general,Perseverance
+147,general,"Pigs, ignorance of"
+147,general,Pigs
+148,general,Recognition
+150,general,Music
+151,general,Poi
+151,general,Self-respect
+152,general,Remarriage
+153,general,Mouth
+153,general,Names
+157,general,Perspiration
+162,general,Mouth
+162,general,Poi
+164,general,Secret (see also concealment)
+164,general,"Seen, all is"
+165,general,Obstinacy
+166,general,"Pigs, straying"
+166,general,Pigs
+166,general,Preparation
+172,general,"Skin, not alike"
+172,general,Skin
+173,general,Progress
+177,general,Reward
+180,general,"Possessions, care of"
+180,general,Possessions
+180,general,Rat
+181,general,Nothingness
+181,general,Poverty (see also destitution)
+185,general,Search
+186,general,Selfishness
+188,general,Repentance
+189,general,Perseverance
+191,general,"Mourning (see also burial, death, grief)"
+191,general,"Possessions, valued too highly"
+191,general,Possessions
+194,general,"Problems (see also difficulties, trouble)"
+196,general,Presumption
+199,general,"Problems (see also difficulties, trouble)"
+199,general,"Relief, lack of"
+199,general,Shelter (see also protection)
+200,general,Shameful
+202,general,Pinworms
+205,general,"Reward, none is tnfling"
+205,general,Reward
+206,general,Silence
+207,general,"Peace (see also calm), perfect"
+207,general,Peace (see also calm)
+207,general,Silence
+208,general,Perfection
+209,general,"Problems (see also difficulties, trouble)"
+211,general,"Preparation, importance of"
+211,general,Preparation
+211,general,Provisions
+213,general,"Preparation, importance of"
+213,general,Preparation
+216,general,Prudence
+217,general,Presumption
+217,general,Self-help
+219,general,Prudence
+219,general,Retreat (from danger)
+219,general,Running
+220,general,Sacrifice
+221,general,Production
+224,general,Protection
+224,general,Servants
+226,general,"Rank (see also status), privileges of (see also chief)"
+226,general,Rank (see also status)
+227,general,Power
+232,general,Signs of rain
+232,general,"Of bad luck, of rain"
+232,general,Of bad luck
+233,general,Obedience
+234,general,"Pu'uhale, rough"
+234,general,Pu'uhale
+236,general,"Sea, distant"
+236,general,Sea
+237,general,Sailing
+237,general,Sea
+241,general,Red
+242,general,"Problems (see also difficulties, trouble)"
+244,general,Proximity
+244,general,Sailor
+244,general,Ships
+250,general,Poi
+251,general,Satisfaction
+252,general,Preparation
+252,general,Prudence
+252,general,"Salt, as preservative"
+252,general,Salt
+253,general,Mistreatment
+253,general,"Roots, tough"
+253,general,Roots
+254,general,Prudence
+256,general,Signs of rain
+256,general,"Of bad luck, of rain"
+256,general,Of bad luck
+256,general,"Skin, black"
+256,general,Skin
+257,general,Precaution
+262,general,Parents
+263,general,Offerings
+263,general,"Pigs, as an of fering"
+263,general,Pigs
+263,general,Reparations
+263,general,Repentance
+264,general,Mouth
+264,general,Reciprocity
+264,general,Retribution
+264,general,Rude (see also manners)
+265,general,"Skin, swollen"
+265,general,Skin
+266,general,Shoulders
+268,general,Sailing
+268,general,Sails
+269,general,"Remedy, advice on"
+271,general,Salt
+274,general,Silence
+275,general,"Prayers, to the dead"
+275,general,Prayers
+276,general,Security
+277,general,Password
+277,general,"Of bad luck, of failure"
+277,general,Of bad luck
+278,general,Overextension
+278,general,"Size, overly large"
+278,general,Size
+280,general,Protection
+280,general,Safety
+281,general,"Mouth, shiny"
+281,general,Mouth
+281,general,"Prosperity, food of"
+281,general,Prosperity
+282,general,Prophecy
+282,general,Religion
+284,general,Modesty
+284,general,Prudence
+286,general,Prudence
+287,general,Rotten (see also decomposition)
+291,general,"Poi, mixing of"
+291,general,Poi
+292,general,Size
+294,general,Plants
+294,general,Replacement
+295,general,Old age (see also aging)
+296,general,"Sea, broiling"
+296,general,Sea
+297,general,"Pu'uhale, rough"
+297,general,Pu'uhale
+299,general,Preparation
+302,general,Precaution
+302,general,Roots
+303,general,Size
+304,general,Mouth
+305,general,Offerings
+306,general,"Seat, of fer of"
+308,general,"Rank (see also status), high"
+308,general,Rank (see also status)
+312,general,Skill (see also expert)
+314,general,"Prayers, the last moment"
+314,general,Prayers
+315,general,Paddle (see also canoe)
+315,general,Poi
+316,general,Opportunity
+316,general,Planting (see also farming)
+317,general,Planting (see also farming)
+317,general,Preparation
+317,general,Self-sufficiency
+319,general,Paddle (see also canoe)
+321,general,Missionaries
+321,general,"Monarchy, overthrow of"
+321,general,Power
+321,general,Prophecy
+321,general,Rebellion
+322,general,Roots
+326,general,Runners
+329,general,Poi
+329,general,Preparation
+329,general,Provisions
+330,general,Rain of Hilo
+331,general,Mouth
+331,general,Noise
+334,general,Security
+336,general,Old age (see also aging)
+337,general,Old age (see also aging)
+338,general,Profound
+339,general,"Respect, for knowledge"
+339,general,Respect
+341,general,Pinworms
+342,general,Heavy rain
+343,general,Rain of Ualoa
+343,general,Much rain
+344,general,Responsibilities
+345,general,Obedience
+346,general,"Parents, care of"
+346,general,Parents
+346,general,"'jeather""601, respect for"
+346,general,"'jeather""601"
+346,general,Responsibilities
+347,general,"Parents, care of"
+347,general,Parents
+347,general,"'jeather""601, respect for"
+347,general,"'jeather""601"
+347,general,Responsibilities
+350,general,Scolding/repro of
+351,general,Offerings
+351,general,"Pigs, as an of fering"
+351,general,Pigs
+351,general,"Prayers, of forgiveness"
+351,general,Prayers
+351,general,Repentance
+353,general,Patience
+354,general,Shyness
+356,general,"Of bad luck, the future"
+356,general,Of bad luck
+357,general,Offerings
+357,general,Peace (see also calm)
+357,general,"Pigs, as an of fering"
+357,general,Pigs
+359,general,Rank (see also status)
+360,general,Heavy rain
+360,general,Provocation of rain
+361,general,Pretensions
+362,general,"Reward, for serving worthy person"
+362,general,Reward
+363,general,Offerings
+363,general,"Sea, death in (see also drowning)"
+363,general,Sea
+364,general,Oath
+371,general,Peace (see also calm)
+372,general,Mouth
+372,general,Poi
+374,general,"Prayers, oneself"
+374,general,Prayers
+374,general,Salvation
+375,general,Poi
+375,general,Salt
+377,general,Rain of Kawaupu'u
+378,general,"Peace (see also calm), urging of"
+378,general,Peace (see also calm)
+379,general,Past
+380,general,Revelation
+380,general,Secret (see also concealment)
+381,general,Self-determination
+384,general,Peace (see also calm)
+385,general,Offerings
+385,general,Sacrifice
+385,general,"Sea, drowning"
+385,general,Sea
+386,general,'Ewa
+387,general,Natives
+393,general,Quiet
+396,general,"Rank (see also status), of mate"
+396,general,"Rank (see also status), suitors"
+396,general,Rank (see also status)
+396,general,Red
+399,general,"Peace (see also calm), absence of"
+399,general,Peace (see also calm)
+403,general,"Possessions, loan of"
+403,general,Possessions
+404,general,Niceties
+405,general,"Rain, Attraction to trees"
+407,general,"Search, in darkness"
+407,general,Search
+408,general,Popularity
+410,general,Punishment
+413,general,Promiscuity
+414,general,Russians
+414,general,Sailor
+414,general,Ships
+414,general,Silence
+415,general,"Perch, red"
+415,general,Rainbow
+415,general,Red
+416,general,Poi
+416,general,Pregnancy
+416,general,Malulani
+420,general,"Road, covered with grass"
+423,general,"Rain, Cessation of"
+434,general,Of bad luck
+436,general,Rain of Hilo
+437,general,Rebuke
+437,general,Silence
+441,general,"Possessions, avoidance of sharing"
+441,general,Possessions
+441,general,Shyness
+442,general,Mouth
+444,general,Promises
+445,general,Old age (see also aging)
+445,general,Security
+446,general,Preparation
+448,general,Rain of Hilo
+448,general,Lid of rain
+451,general,Scarcity (see also lack)
+453,general,"'jeather""601"
+454,general,Respect
+456,general,"Pigs, value of"
+456,general,Pigs
+456,general,Reward
+458,general,Mouth
+459,general,Pillow
+459,general,"Rain,  Causing suspension of work"
+459,general,Relaxation
+461,general,Retribution
+461,general,Revenge
+462,general,Destruction rain
+462,general,Rain of Hilo
+464,general,La'au
+464,general,Planting (see also farming)
+465,general,"'Ikuwa, Kaulua"
+465,general,'Ikuwa
+470,general,Regality
+471,general,Misty rain
+473,general,Opportunity
+473,general,Pu'uhale
+474,general,"Pu'uhale, rough"
+474,general,Pu'uhale
+477,general,Nets
+478,general,Pu'uhale
+480,general,Restlessness
+481,general,Sin
+482,general,Pride
+482,general,Salt
+482,general,Shadow
+483,general,Old age (see also aging)
+485,general,Money
+485,general,Price
+488,general,Mouth
+490,general,Scattering
+492,general,"Mother (see also parents, wife, woman), molds baby's body"
+492,general,"Mother (see also parents, wife, woman)"
+493,general,Silence
+495,general,Reputation
+496,general,"Mountain (see also hill, summit)"
+497,general,Rumor (see also gossip)
+499,general,Sand
+500,general,"'jeather""601"
+504,general,"Skill, in surfing"
+504,general,Skill (see also expert)
+505,general,Mouth
+505,general,Pigs
+505,general,Pursuit
+507,general,Perseverance
+508,general,Of bad luck
+510,general,Results
+513,general,Restlessness
+514,general,Names
+514,general,Recognition
+514,general,Rest (see also relaxation)
+515,general,Peace (see also calm)
+515,general,Relaxation
+519,general,Neck
+520,general,Reciprocity
+523,general,"Skin, dark"
+523,general,Skin
+524,general,"Path (see also road, trail)"
+525,general,Prudence
+529,general,Noise
+530,general,Sea
+531,general,Servants
+532,general,Peace (see also calm)
+533,general,Servants
+540,general,"Rank (see also status), awareness of"
+540,general,"Rank (see also status), of mate"
+540,general,"Rank (see also status), preservation of"
+540,general,Rank (see also status)
+541,general,Mountain rain
+542,general,"Mouth, small"
+542,general,Mouth
+542,general,Quiet
+544,general,Threat of rain
+547,general,Poisonous
+549,general,Nudity
+549,general,Running
+549,general,Of bad luck
+550,general,"Mokoli'i, of 'O'okala"
+550,general,Mokoli'i
+552,general,Murder
+552,general,Peace (see also calm)
+552,general,Safety
+552,general,Security
+553,general,Righteousness
+557,general,Rainbow
+557,general,Signs
+559,general,"Road, covered with grass"
+560,general,Pretensions
+560,general,"Rank (see also status), low"
+560,general,"Rank (see also status), pretense of"
+560,general,Rank (see also status)
+561,general,Shelter (see also protection)
+562,general,"Of bad luck, of life"
+562,general,Of bad luck
+564,general,Mistreatment
+566,general,Reward
+571,general,Pride
+574,general,Preoccupied
+575,general,Neck
+576,general,"Relationship, blood"
+578,general,Pregnancy
+578,general,Quiet
+579,general,Roots
+580,general,Signs
+581,general,"Problems (see also difficulties, trouble)"
+582,general,Rain of Alaka'i
+582,general,Much rain
+585,general,"Problems (see also difficulties, trouble)"
+587,general,"Night, revelation of"
+587,general,Night
+587,general,Revelation
+587,general,Signs
+590,general,Odor (see also fragrance)
+595,general,Provocation
+595,general,Size
+596,general,Seed
+598,general,"Of bad luck, of death"
+598,general,Of bad luck
+600,general,"Nostril, hair in"
+601,general,"'jeather""601"
+602,general,Skill (see also expert)
+603,general,Payment
+603,general,Reward
+606,general,Nets
+610,general,Pu'uhale
+611,general,"Rank (see also status), low"
+611,general,"Rank (see also status), permanence of"
+611,general,Rank (see also status)
+612,general,"Preparation, importance of"
+612,general,Preparation
+615,general,Parasite (see also exploitation)
+619,general,Morning
+619,general,Persistence
+620,general,"Recognition, of appropriate thing to do"
+620,general,Recognition
+620,general,Righteousness
+622,general,"Perception, extra-sensory"
+622,general,"Sight, second"
+623,general,Size
+624,general,Size
+625,general,Size
+627,general,Size
+630,general,Skin
+631,general,"Rank (see also status), of mate"
+631,general,"Rank (see also status), preservation of"
+631,general,Rank (see also status)
+633,general,Promiscuity
+634,general,"Rain, Baking of"
+637,general,"Names, fragrant"
+637,general,Names
+637,general,Reputation
+640,general,Missionaries
+640,general,"Prayers, to death"
+640,general,Prayers
+644,general,Poi
+649,general,"Skill, in surfing"
+649,general,Skill (see also expert)
+650,general,Prudence
+650,general,"Restraint, urging of"
+651,general,Plains
+652,general,"Sea, eroding"
+652,general,Sea
+653,general,"Pu'uhale, wild"
+653,general,Pu'uhale
+656,general,Nudity
+657,general,Nets
+659,general,"Sea, in"
+659,general,Sea
+662,general,"Parents, care of"
+662,general,Parents
+662,general,"'jeather""601, children with"
+662,general,"'jeather""601"
+665,general,Rank (see also status)
+668,general,"'jeather""601, unknown or uncertain"
+668,general,"'jeather""601"
+668,general,Shade
+671,general,Makali'i
+671,general,Planting (see also farming)
+672,general,"Skin, easily"
+672,general,Skin
+673,general,Heavy rain
+673,general,Pouring rain
+674,general,"Of bad luck, of kapu"
+674,general,Of bad luck
+675,general,Skill (see also expert)
+677,general,Reef
+680,general,Overlooked/oversight
+680,general,"Skill, overlooked"
+680,general,Skill (see also expert)
+681,general,"Pigs, fierce"
+681,general,"Pigs, rooting of"
+681,general,Pigs
+682,general,Rank (see also status)
+682,general,Reflection
+684,general,"Planting (see also farming), care in"
+684,general,Planting (see also farming)
+684,general,Plants
+686,general,Paddle (see also canoe)
+688,general,Music
+688,general,Parents
+690,general,Possessions
+695,general,Of bad luck
+699,general,"Prayers, take time to work"
+699,general,Prayers
+701,general,Presumption
+701,general,Pretensions
+706,general,Permanence
+706,general,Screw
+706,general,Screwdriver
+707,general,"'jeather""601"
+711,general,Prosperity
+714,general,"Skill, great"
+714,general,Skill (see also expert)
+717,general,Heavy rain
+718,general,Security
+718,general,Sky
+719,general,Parents
+720,general,Rootless
+724,general,Nets
+726,general,Skill (see also expert)
+728,general,Old age (see also aging)
+732,general,Prophecy
+733,general,Misty rain
+734,general,Red
+734,general,"Sea, in"
+734,general,Sea
+735,general,Music
+737,general,Odor (see also fragrance)
+737,general,Planning
+737,general,Scepticism
+740,general,Shade
+742,general,Search
+744,general,Procrastination
+745,general,"Mother (see also parents, wife, woman), negleciful"
+745,general,"Mother (see also parents, wife, woman)"
+746,general,Obvious
+748,general,Rain of Hokuko'a
+751,general,"Poison, fish"
+752,general,"Poi, pounding of"
+752,general,Poi
+754,general,Salt
+754,general,Scandal
+755,general,Money
+755,general,Poi
+755,general,Prosperity
+758,general,Mud
+758,general,Poi
+761,general,Pretensions
+761,general,"Rank (see also status), friends of those of"
+761,general,Rank (see also status)
+762,general,Size
+768,general,Promises
+771,general,Offerings
+772,general,Rank (see also status)
+774,general,"Nets, fine-meshed"
+774,general,Nets
+775,general,Icy rain
+775,general,"Rank (see also status), elevation of"
+775,general,Rank (see also status)
+776,general,Skill (see also expert)
+778,general,Rat
+779,general,"Sand, jIyingl"
+779,general,Sand
+783,general,Shame
+788,general,Pu'uhale
+790,general,Religion
+792,general,Promiscuity
+793,general,"Pry (see also curiosity, inquisitiveness)"
+797,general,Paddle (see also canoe)
+798,general,Practice
+800,general,Persistence
+801,general,Recklessness
+802,general,Protection
+803,general,Prosperity
+806,general,Satisfaction
+808,general,Satisfaction
+808,general,Servants
+809,general,Paddle (see also canoe)
+811,general,Production
+811,general,Reward
+812,general,Remarriage
+813,general,Skin
+814,general,Offerings
+814,general,"Prayers, of forgiveness"
+814,general,Prayers
+815,general,Rarity (see also value)
+815,general,Scarcity (see also lack)
+820,general,Responsibilities
+821,general,Punishment
+821,general,Ka'a'awa
+823,general,Of bad luck
+827,general,Popularity
+831,general,"Relationship, blood"
+832,general,Prudence
+834,general,Pinworms
+836,general,Riddling
+839,general,Rank (see also status)
+840,general,Retreat (from danger)
+842,general,Promiscuity
+843,general,Rigidity
+844,general,Sea
+844,general,"Skill, great"
+844,general,Skill (see also expert)
+845,general,"Roots, shallow"
+845,general,Roots
+848,general,"Potency, sexual"
+850,general,Parasite (see also exploitation)
+851,general,Shyness
+852,general,Mist
+852,general,"Mountain (see also hill, summit)"
+854,general,Mist
+855,general,"Skill, in surfing"
+855,general,Skill (see also expert)
+856,general,Prophet
+857,general,Protection
+860,general,Parasite (see also exploitation)
+860,general,Pride
+860,general,Self-sufficiency
+863,general,Permanence
+864,general,"Skin, dark"
+864,general,Skin
+866,general,Shyness
+867,general,Rootless
+874,general,"Salt, melts"
+874,general,Salt
+875,general,"Mouth, t"
+875,general,Mouth
+875,general,Prudence
+876,general,Skin
+877,general,Music
+878,general,"Rank (see also status), low"
+878,general,Rank (see also status)
+883,general,Sin
+884,general,Rude (see also manners)
+891,general,Rat
+893,general,Protection
+894,general,"Relationship, blood, loose"
+894,general,"Relationship, blood"
+896,general,"Relationship, blood"
+897,general,Nets
+897,general,Paddle (see also canoe)
+903,general,"Night, gainful"
+903,general,Night
+904,general,Skill (see also expert)
+905,general,"Problems (see also difficulties, trouble)"
+905,general,Sea
+905,general,Pu'uhale
+907,general,"Nights, Hilo"
+907,general,Shellfish
+908,general,"Night, wanderers in the"
+908,general,Night
+908,general,"Nights, Hilo, Kane"
+908,general,"Nights, Hilo"
+909,general,Runners
+909,general,Running
+909,general,"Siblings, younger"
+909,general,Siblings (see family)
+911,general,Rest (see also relaxation)
+912,general,Prudence
+913,general,Sky
+914,general,Plants
+915,general,"Poison, fish"
+915,general,Prayers
+917,general,Night
+917,general,Peace (see also calm)
+918,general,Pigs
+918,general,Prayers
+919,general,Pigs
+920,general,Rarity (see also value)
+921,general,Miser
+923,general,Roots
+926,general,Power
+927,general,Size
+929,general,Promises
+930,general,Nuisance
+932,general,Perseverance
+932,general,Persistence
+932,general,Progress
+932,general,Reef
+934,general,Shame
+938,general,Obstacle
+938,general,Obstinacy
+939,general,Skill (see also expert)
+940,general,"Odor (see also fragrance), body"
+940,general,Odor (see also fragrance)
+942,general,Preceding nehu run
+943,general,Shelter (see also protection)
+944,general,Ruthlessness
+945,general,Light rain
+945,general,"Rank (see also status), low"
+945,general,Rank (see also status)
+948,general,Promiscuity
+949,general,Scarcity (see also lack)
+951,general,"Problems (see also difficulties, trouble)"
+952,general,Rebel
+952,general,Rebellion
+953,general,Shyness
+954,general,Restlessness
+955,general,Self-reliance
+960,general,Mule
+961,general,"Pigs, strangling of"
+961,general,Pigs
+963,general,Quiet
+964,general,"Nets, fine-meshed"
+964,general,Nets
+968,general,"Mouth, sour"
+968,general,Mouth
+969,general,Mouth
+970,general,"Mouth, small"
+970,general,"Mouth, tight"
+970,general,Mouth
+972,general,Waimea
+973,general,Skill (see also expert)
+974,general,Multitude (see also crowd}
+977,general,"Possessions, precious"
+977,general,Possessions
+979,general,Sand
+981,general,"'jeather""601"
+986,general,Parasite (see also exploitation)
+987,general,"Mother (see also parents, wife, woman), fleeing"
+987,general,"Mother (see also parents, wife, woman)"
+989,general,Muku
+989,general,Planting (see also farming)
+989,general,"Problems (see also difficulties, trouble)"
+993,general,Planning
+994,general,Names
+994,general,Posture
+996,general,"Months, Hi/ina"
+998,general,Pouring rain
+998,general,Rain of Hilo
+1000,general,Kanilehua rain
+1000,general,Rain of Hilo
+1001,general,Rain of Hilo
+1001,general,"Rain, Constant rain"
+1002,general,Rain of Hilo
+1003,general,Planting (see also farming)
+1003,general,Pride
+1006,general,Mud
+1006,general,Rain of Hilo
+1007,general,Pregnancy
+1007,general,Quiet
+1008,general,"Nose, shiny"
+1008,general,Nose
+1012,general,Reward
+1013,general,Pro of
+1013,general,"Skill, in surfing"
+1013,general,Skill (see also expert)
+1014,general,Protection
+1016,general,Poi
+1020,general,"Night, cold"
+1020,general,Night
+1025,general,"Relationship, blood, repaired"
+1025,general,"Relationship, blood"
+1025,general,"Roots, tap"
+1025,general,Roots
+1026,general,Opportunity
+1026,general,"Sea, broiling"
+1026,general,Sea
+1027,general,"Sea, foamy"
+1027,general,Sea
+1028,general,Salt
+1028,general,Waimea
+1030,general,Poi
+1030,general,Punishment
+1031,general,Pout
+1032,general,Repentance
+1033,general,Namii
+1033,general,Nawa
+1037,general,"Mountain (see also hill, summit)"
+1037,general,Scattering
+1038,general,"Peace (see also calm), return of"
+1038,general,Peace (see also calm)
+1039,general,Plains
+1042,general,"'jeather""601, return to"
+1042,general,"'jeather""601"
+1043,general,Return
+1044,general,Plains
+1046,general,Runners
+1047,general,"Of bad luck, re fishing"
+1047,general,Of bad luck
+1050,general,Regret
+1050,general,Remorse
+1051,general,Secret (see also concealment)
+1054,general,Pride
+1055,general,Nose
+1058,general,Shoulders
+1061,general,Recognition
+1061,general,Pu'uhale
+1063,general,Of bad luck
+1064,general,Recognition
+1066,general,Misfortune
+1068,general,Paddle (see also canoe)
+1069,general,"Mother (see also parents, wife, woman), children of different"
+1069,general,"Mother (see also parents, wife, woman)"
+1072,general,Sacrifice
+1073,general,"Mother (see also parents, wife, woman)"
+1077,general,Punishment
+1077,general,Regret
+1077,general,Repentance
+1078,general,Permanence
+1079,general,Obedience
+1081,general,Odor (see also fragrance)
+1082,general,Salt
+1082,general,Waimea
+1084,general,Selfishness
+1084,general,Sharing
+1085,general,"Possessions, not yours"
+1085,general,Possessions
+1085,general,Pride
+1086,general,Retribution
+1087,general,Outside
+1090,general,Peace (see also calm)
+1091,general,Of bad luck
+1092,general,'Okiu rain
+1093,general,Pro of
+1095,general,Power
+1096,general,Mouth
+1096,general,Punishment
+1100,general,Restlessness
+1100,general,Mokoli'i
+1100,general,"Pu'uhale, restless"
+1100,general,Pu'uhale
+1101,general,Newspaper
+1101,general,Procrastination
+1104,general,Orderliness
+1104,general,Planning
+1106,general,Progress
+1108,general,Skin
+1110,general,Pu'uhale
+1111,general,Prisoner
+1114,general,Scrotum
+1117,general,"Secret (see also concealment), by anger"
+1117,general,Secret (see also concealment)
+1118,general,Seed
+1119,general,Plains
+1120,general,Cloudburst
+1120,general,Scandal
+1122,general,Revelation
+1122,general,Secret (see also concealment)
+1124,general,Search
+1124,general,"Ships, Kina'u"
+1124,general,Ships
+1125,general,Misguided
+1129,general,"Mother (see also parents, wife, woman), with flock of children"
+1129,general,"Mother (see also parents, wife, woman)"
+1134,general,Overflowing
+1134,general,Propriety
+1135,general,Point
+1137,general,"Of bad luck, food"
+1137,general,Of bad luck
+1139,general,Safety
+1139,general,Security
+1141,general,Rafters
+1143,general,Procession
+1145,general,"Nets, carrying"
+1145,general,Nets
+1148,general,Pigs
+1149,general,'Ewa
+1151,general,"Preparation, importance of"
+1151,general,Preparation
+1151,general,Provisions
+1152,general,Nets
+1152,general,Preparation
+1152,general,Pride
+1155,general,Self-help
+1158,general,"Poison, fish"
+1160,general,Mouth
+1161,general,Silence
+1162,general,Search
+1163,general,Pout
+1167,general,Pregnancy
+1168,general,Peace (see also calm)
+1169,general,Poverty (see also destitution)
+1169,general,"Prosperity, attraction of"
+1169,general,Prosperity
+1171,general,"Mouth, raw"
+1171,general,Mouth
+1175,general,Preparation
+1176,general,Preparation
+1177,general,Reputation
+1178,general,Preparation
+1179,general,Rust
+1180,general,Railroad
+1180,general,Sky
+1183,general,Preparation
+1184,general,Preparation
+1185,general,Reciprocity
+1185,general,Servants
+1186,general,Observation
+1187,general,Peace (see also calm)
+1187,general,Satisfaction
+1188,general,Power
+1188,general,Prosperity
+1189,general,Music
+1192,general,Pahiuhiu (game)
+1194,general,Satisfaction
+1195,general,Mouth
+1196,general,"Prayers, the last moment"
+1196,general,Prayers
+1197,general,"'Ikuwa, Kaulua"
+1197,general,'Ikuwa
+1198,general,Mouth
+1198,general,"Planting (see also farming), plans for"
+1198,general,Planting (see also farming)
+1200,general,Recognition
+1201,general,Obvious
+1203,general,Obvious
+1206,general,"Nostril, hair in"
+1206,general,Selection
+1207,general,Recognition
+1208,general,Skill (see also expert)
+1216,general,Poi
+1216,general,Salt
+1217,general,"Pigs, straying"
+1217,general,Pigs
+1217,general,Preparation
+1217,general,Protection
+1218,general,Responsibilities
+1223,general,Patience
+1224,general,Obedience
+1225,general,Music
+1228,general,Sea
+1230,general,Prayers
+1231,general,Signs of rain
+1231,general,"Of bad luck, of rain"
+1231,general,Of bad luck
+1232,general,"'jeather""601, children's behavior"
+1232,general,"'jeather""601"
+1234,general,Needle
+1237,general,"Siblings, younger"
+1237,general,Siblings (see family)
+1239,general,"Siblings, younger"
+1239,general,Siblings (see family)
+1239,general,Of bad luck
+1240,general,"Skill, at canoe paddling"
+1240,general,Skill (see also expert)
+1241,general,"Pigs, straying"
+1241,general,Pigs
+1242,general,Missionaries
+1242,general,Prophecy
+1242,general,Skin
+1243,general,Pu'uhale
+1243,general,"Of bad luck, of  trouble"
+1243,general,Of bad luck
+1245,general,Rain of Hilo
+1248,general,Nana
+1249,general,Respect
+1249,general,"Siblings, younger"
+1249,general,Siblings (see family)
+1250,general,"Mother (see also parents, wife, woman)"
+1250,general,Respect
+1250,general,Siblings (see family)
+1251,general,Respect
+1252,general,"Mother (see also parents, wife, woman)"
+1252,general,Pregnancy
+1255,general,"Nose, foul-smelling"
+1255,general,Nose
+1255,general,Odor (see also fragrance)
+1260,general,"Signs, of approach"
+1260,general,Signs
+1262,general,Pregnancy
+1267,general,Of bad luck
+1271,general,Neck
+1275,general,"Mouth, red"
+1275,general,Mouth
+1277,general,Prudence
+1278,general,Money
+1281,general,Rat
+1282,general,Pu'uhale
+1283,general,Silence
+1285,general,Pride
+1290,general,Prudence
+1294,general,Punishment
+1294,general,"Rules, adherence to (see also kapu, law)"
+1295,general,"'jeather""601"
+1298,general,"Mountain (see also hill, summit)"
+1300,general,Seed
+1301,general,Skin
+1305,general,Perspiration
+1306,general,Sea
+1306,general,"Of bad luck, of storm"
+1306,general,Of bad luck
+1308,general,Penis
+1309,general,Wa'ahila rain
+1309,general,Rain of Nu'uanu
+1311,general,Seventh
+1315,general,Ridgepole
+1315,general,Ships
+1320,general,Poi
+1320,general,Reciprocity
+1321,general,Salt
+1322,general,Mud
+1327,general,Mud
+1328,general,Poi
+1328,general,Salt
+1328,general,Selfishness
+1331,general,Silence
+1332,general,Odor (see also fragrance)
+1334,general,Nets
+1339,general,Skin
+1340,general,Cloudburst
+1342,general,"Sea, dangerous"
+1342,general,Sea
+1342,general,Pu'uhale
+1343,general,Reward
+1344,general,Of bad luck
+1347,general,Riddling
+1355,general,Skin
+1356,general,Sand
+1357,general,Silence
+1361,general,Poi
+1363,general,Nets
+1366,general,Nets
+1375,general,Sky
+1377,general,Mouth
+1377,general,Silence
+1378,general,Nets
+1382,general,"Royalty, death of"
+1382,general,Pu'uhale
+1382,general,"Of bad luck, of death"
+1382,general,Of bad luck
+1384,general,Silence
+1385,general,Salt
+1386,general,Sacrifice
+1387,general,Pu'uhale
+1389,general,Rain of 'Ena
+1389,general,Relaxation
+1391,general,"Mother (see also parents, wife, woman)"
+1393,general,Retribution
+1394,general,"Sea, divided"
+1394,general,Sea
+1395,general,"Pigs, of cloud"
+1395,general,Pigs
+1395,general,Signs of rain
+1395,general,Of bad luck
+1396,general,Mouth
+1396,general,Retribution
+1397,general,"'jeather""601, teach children"
+1397,general,"'jeather""601"
+1398,general,Retribution
+1401,general,Retribution
+1403,general,"Sea, of'Alio"
+1403,general,Sea
+1403,general,Pu'uhale
+1403,general,Shore-dweller
+1409,general,Sea
+1409,general,Pu'uhale
+1410,general,Sea
+1410,general,"Pu'uhale, separating"
+1410,general,Pu'uhale
+1411,general,Rat
+1413,general,Pu'uhale
+1415,general,Money
+1416,general,"Pigs, of cloud"
+1416,general,Pigs
+1416,general,Of bad luck
+1417,general,Nose
+1418,general,Screw
+1418,general,Security
+1418,general,Skill (see also expert)
+1420,general,Pride
+1424,general,Peace (see also calm)
+1424,general,"Reward, for loyalty"
+1424,general,Reward
+1425,general,Peace (see also calm)
+1425,general,Pregnancy
+1427,general,Past
+1435,general,Poi
+1439,general,Posture
+1442,general,Pouring rain
+1442,general,Rain of Hanalei
+1443,general,Sacrifice
+1444,general,"Mother (see also parents, wife, woman), longer bearing"
+1444,general,"Mother (see also parents, wife, woman)"
+1447,general,Natives
+1448,general,Rank (see also status)
+1450,general,Peace (see also calm)
+1454,general,Mouth
+1467,general,Sailing
+1470,general,Nose
+1471,general,Moon
+1471,general,"Nights, Hilo"
+1471,general,Muku
+1474,general,Protection
+1474,general,Shelter (see also protection)
+1479,general,Observation
+1480,general,"Of bad luck, of  trouble"
+1480,general,Of bad luck
+1482,general,Sea
+1483,general,Natives
+1483,general,Ships
+1485,general,Prophecy
+1487,general,Scolding/repro of
+1487,general,Servants
+1487,general,Shame
+1490,general,Nuisance
+1490,general,Pest
+1492,general,Neck
+1495,general,Of bad luck
+1499,general,Pigs
+1499,general,"Of bad luck, ghosts"
+1499,general,Of bad luck
+1501,general,Prudence
+1503,general,Shoulders
+1504,general,Siblings (see family)
+1504,general,Size
+1505,general,Size
+1508,general,Privacy
+1508,general,"Pry (see also curiosity, inquisitiveness)"
+1509,general,"Nana, Welo"
+1509,general,Nana
+1509,general,"Planting (see also farming), taro"
+1509,general,Planting (see also farming)
+1512,general,Mist
+1513,general,Mist
+1513,general,Signs of rain
+1513,general,Of bad luck
+1514,general,Noon
+1514,general,Nudity
+1521,general,Pu'uhale
+1522,general,"Prosperity, of"
+1522,general,Prosperity
+1523,general,Peace (see also calm)
+1525,general,Sea
+1525,general,"Ships, Keoko'i"
+1525,general,Ships
+1530,general,Respect
+1534,general,"Plank, unstable"
+1536,general,Sea
+1536,general,Pu'uhale
+1537,general,"Pu'uhale, stormy"
+1537,general,Pu'uhale
+1538,general,Payment
+1538,general,Retribution
+1538,general,Salt
+1540,general,Reliable
+1541,general,Poi
+1543,general,Misunderstanding
+1544,general,"Post, main"
+1545,general,Money
+1545,general,Prosperity
+1545,general,Scrotum
+1548,general,Apuakea rain
+1548,general,Rain of Mololani
+1548,general,Rain of Nu'uanu
+1549,general,'Awa rain
+1549,general,Cold rain
+1549,general,Rain of Kilauea
+1550,general,Rain of Waiohinu
+1550,general,Rain Ilia'ao rain
+1551,general,Rain of Hilo
+1551,general,Preceding nehu run
+1552,general,Rain of Pi'ihonua
+1553,general,Cold rain
+1553,general,Rain of Waiehu
+1555,general,Poi
+1557,general,"Rain, Sign of a chief"
+1558,general,Rebel
+1558,general,Rebellion
+1560,general,Rain of Kea'au
+1561,general,Rain of He'eia
+1561,general,Rain of Hilo
+1562,general,Kanilehua rain
+1562,general,Rain of Hilo
+1563,general,Rain of Mololani
+1563,general,Rain of Nu'uanu
+1564,general,Rain of Palawat
+1565,general,Rain of Pahala
+1566,general,White rain
+1566,general,Rain of Hana
+1569,general,Rain of Punalu'u
+1570,general,Bruising rain
+1570,general,Rain of Pana'ewa
+1571,general,Cold rain
+1571,general,Kipu'upu'u rain
+1571,general,Rain of Waimea
+1571,general,Runners
+1572,general,Adz rain
+1572,general,Pouring rain
+1572,general,Rain of Kalihi
+1573,general,Mist
+1573,general,Rain of Ka'ala
+1574,general,Murder
+1574,general,Kuahine rain
+1574,general,Rain of Manoa
+1574,general,Rainbow
+1574,general,"Royalty, death of"
+1575,general,Kukalahale rain
+1575,general,Rain of Honolulu
+1575,general,Roofs
+1576,general,Destruction rain
+1576,general,Rain of Ka'upena
+1577,general,Cold rain
+1577,general,Rain of Lanakila
+1578,general,Laniha'aha'a rain
+1578,general,Shelter rain
+1578,general,Rain of Hana
+1578,general,Shelter (see also protection)
+1578,general,Sky
+1579,general,Lanipa'ina rain
+1579,general,Rain of 'Ulupalakua
+1580,general,Mist
+1580,general,Rain of Waianuenue
+1580,general,Rainbow
+1581,general,Rain of Ka'anapali
+1582,general,Icy rain
+1582,general,Lihau rain
+1582,general,Rain of Pahoa
+1583,general,Lililehua rain
+1583,general,Rain of Ka'anapali
+1584,general,Pouring rain
+1584,general,Rain of Hanalei
+1585,general,Heavy rain
+1585,general,Rain of Pana'ewa
+1586,general,Adz rain
+1586,general,Cold rain
+1586,general,Rain of Hale Ie'a
+1587,general,Rain of Puna
+1588,general,Sudden rain
+1588,general,Rain of Kawaihae
+1588,general,Signs of rain
+1588,general,Of bad luck
+1589,general,Rain of Moelana
+1590,general,Noelehua rain
+1590,general,Rain of Wai'ale'ale
+1591,general,Rain of Waimea
+1592,general,Rain In presence of a god
+1592,general,"Of bad luck, of god"
+1592,general,Of bad luck
+1593,general,Paliloa rain
+1593,general,Rain of Waimea
+1594,general,Pa'upili rain
+1594,general,Rain of Lahaina
+1595,general,Shelter rain
+1595,general,Rain of Kaupo
+1595,general,Shelter (see also protection)
+1596,general,Shelter rain
+1596,general,Rain of Huelo
+1596,general,Shelter (see also protection)
+1597,general,Rain of Hi'imakua
+1598,general,Rain of Kahalu'u
+1599,general,Mist
+1599,general,Rain of Kumaka
+1600,general,"Mountain (see also hill, summit)"
+1600,general,'Awa rain
+1600,general,Icy rain
+1600,general,Mountain rain
+1601,general,POpokapa rain
+1601,general,Rain of Nu'uanu
+1602,general,'Okiu rain
+1602,general,Rain of Makawao
+1603,general,Rain of Pi'iholo
+1604,general,Wa'awa'ahia rain
+1604,general,Rain of Waipi'o
+1607,general,Rain of Hilo
+1607,general,Regality
+1608,general,Poverty (see also destitution)
+1608,general,"Resources, lack of"
+1610,general,Pool
+1611,general,Noon
+1611,general,Shadow
+1612,general,Moon
+1613,general,"Possessions, longingfor"
+1613,general,Possessions
+1614,general,Rainbow
+1614,general,Of bad luck
+1615,general,Recreation
+1615,general,Sails
+1616,general,Pillow
+1616,general,Rest (see also relaxation)
+1617,general,Nana
+1617,general,Pillow
+1617,general,Rest (see also relaxation)
+1620,general,Pride
+1621,general,Rank (see also status)
+1624,general,Prayers
+1624,general,Prophet
+1625,general,Ships
+1627,general,Rank (see also status)
+1629,general,Rebellion
+1634,general,Sailor
+1637,general,Ships
+1638,general,Patience
+1642,general,Remembrance
+1647,general,"Pu'uhale, whispering"
+1647,general,Pu'uhale
+1649,general,Pool
+1653,general,Offerings
+1653,general,Pool
+1655,general,"Prayers, answer to"
+1655,general,"Prayers, for relief"
+1655,general,Prayers
+1657,general,"Nights, Hilo, Kane"
+1657,general,"Nights, Hilo, Kil"
+1657,general,"Nights, Hilo"
+1658,general,Sacrifice
+1659,general,Pest
+1664,general,Heated rain
+1664,general,Rainbow
+1667,general,Rank (see also status)
+1668,general,"Sea, murmuring"
+1668,general,Sea
+1670,general,Scrotum
+1674,general,Pursuit
+1676,general,"Road, covered with grass, paved with sea shd!s"
+1676,general,"Road, covered with grass"
+1677,general,Power
+1677,general,Respect
+1678,general,"Shells, land"
+1679,general,Obvious
+1679,general,Retribution
+1679,general,Ruthlessness
+1683,general,"Sea, murmuring"
+1683,general,Sea
+1684,general,Restlessness
+1685,general,"Peace (see also calm), in harbor"
+1685,general,Peace (see also calm)
+1688,general,Pu'uhale
+1689,general,Pu'uhale
+1691,general,Natives
+1692,general,Revelation
+1694,general,Murder
+1695,general,"Pry (see also curiosity, inquisitiveness)"
+1698,general,Return
+1700,general,Poi
+1700,general,"Of bad luck, relating to medicine"
+1700,general,Of bad luck
+1703,general,Pa'upili rain
+1703,general,Rain of Lahaina
+1708,general,Provisions
+1717,general,"Shell, kahuli"
+1717,general,"Shells, land"
+1718,general,"Ke'ehi, of Mamala"
+1718,general,Ke'ehi
+1719,general,Kawaihae
+1719,general,"Pu'uhale, whispering"
+1719,general,Pu'uhale
+1720,general,"Mokoli'i, of Puakea"
+1720,general,Mokoli'i
+1722,general,Kahului
+1722,general,"Pu'uhale, swaying"
+1722,general,Pu'uhale
+1723,general,Ke'ehi
+1726,general,"Mokoli'i, of Po'o"
+1726,general,Mokoli'i
+1726,general,Pu'uhale
+1727,general,Reptile
+1727,general,"Sea, loud-voiced"
+1727,general,Sea
+1727,general,Mokoli'i
+1728,general,"Sea, loud-voiced"
+1728,general,Sea
+1728,general,"Mokoli'i, of Paikaka"
+1728,general,Mokoli'i
+1729,general,Sea
+1729,general,Kama'ole
+1730,general,Kawaihae
+1731,general,Sea
+1731,general,Ke'ehi
+1732,general,Sea
+1732,general,Pu'uhale
+1733,general,Pigs
+1733,general,Pu'uhale
+1734,general,"Sea, echoing"
+1734,general,Sea
+1734,general,Kahului
+1735,general,Mistreatment
+1735,general,Retribution
+1738,general,Offerings
+1738,general,Prayers
+1739,general,Rainbow
+1739,general,"Reward, warriors"
+1739,general,Reward
+1740,general,Red
+1740,general,"Signs, of 'aumakua watching"
+1740,general,Signs
+1741,general,"Muku, 'Olepau"
+1741,general,Muku
+1742,general,Skill (see also expert)
+1745,general,"Mouth, wry"
+1745,general,Mouth
+1745,general,Self-knowledge
+1748,general,Kipu'upu'u rain
+1748,general,Rain of Waimea
+1748,general,Skin
+1750,general,Rank (see also status)
+1753,general,Prudence
+1754,general,"News, good"
+1756,general,"Mountain (see also hill, summit)"
+1757,general,Punishment
+1758,general,Possibility
+1761,general,Plains
+1762,general,Plains
+1763,general,Parasite (see also exploitation)
+1764,general,Natives
+1766,general,Prosperity
+1768,general,Roots
+1772,general,Missionaries
+1772,general,"Monarchy, overthrow of"
+1772,general,Prophecy
+1772,general,Sand
+1773,general,"Sand, sparkling"
+1773,general,Sand
+1774,general,"Sand, sounding"
+1774,general,Sand
+1775,general,"'jeather""601, scolding children"
+1775,general,"'jeather""601"
+1775,general,"Refuge, place of"
+1775,general,Sand
+1776,general,Sand
+1778,general,Sand
+1778,general,"Shells, land"
+1779,general,"Of bad luck, ghosts"
+1779,general,Of bad luck
+1780,general,Sand
+1782,general,Rat
+1783,general,Red
+1785,general,Skin
+1786,general,"Rank (see also status), elevation of"
+1786,general,Rank (see also status)
+1789,general,Pu'uhale
+1793,general,"People, important"
+1793,general,Rank (see also status)
+1794,general,"People, important"
+1794,general,Rank (see also status)
+1795,general,Of bad luck
+1801,general,Multitude (see also crowd}
+1801,general,Murder
+1802,general,Multitude (see also crowd}
+1802,general,"Rank (see also status), low"
+1802,general,"Rank (see also status), pretense of"
+1802,general,Rank (see also status)
+1807,general,Oar
+1808,general,Point
+1810,general,"Night, cold"
+1810,general,Night
+1812,general,"Pry (see also curiosity, inquisitiveness)"
+1813,general,Pride
+1814,general,Nose
+1817,general,Pinworms
+1818,general,Revelation
+1819,general,Rebellion
+1819,general,Retribution
+1820,general,Revelation
+1821,general,Poi
+1821,general,Sharing
+1821,general,Shore-dweller
+1822,general,"Nets, carrying"
+1822,general,"Nets, gnawed"
+1822,general,Nets
+1822,general,Plains
+1822,general,Rainbow
+1822,general,Rat
+1826,general,Names
+1826,general,"Possessions, family"
+1826,general,Possessions
+1827,general,Names
+1829,general,Prosperity
+1830,general,Names
+1831,general,Mouth
+1832,general,Puhenehene (game)
+1832,general,Red
+1832,general,Secret (see also concealment)
+1833,general,Natives
+1833,general,Permanence
+1836,general,Paddle (see also canoe)
+1838,general,"'jeather""601"
+1842,general,Ke'ehi
+1843,general,Sea
+1843,general,Ke'ehi
+1846,general,"Mountain (see also hill, summit)"
+1847,general,Shoulders
+1852,general,Salt
+1852,general,Scandal
+1852,general,Secret (see also concealment)
+1852,general,Skeletons
+1853,general,Palate
+1854,general,Pairs
+1856,general,Riddling
+1858,general,Rat
+1858,general,Retribution
+1858,general,"Reward, just"
+1858,general,Reward
+1859,general,Retribution
+1859,general,"Reward, just"
+1859,general,Reward
+1861,general,Paddle (see also canoe)
+1861,general,Posture
+1861,general,Preparation
+1866,general,Possessions
+1866,general,Religion
+1873,general,Narrowness
+1875,general,"Mouth, of a child"
+1875,general,Mouth
+1875,general,"'jeather""601, teach children"
+1875,general,"'jeather""601"
+1877,general,Sky
+1882,general,Kipu'upu'u rain
+1882,general,Rain of Waimea
+1885,general,Size
+1886,general,Prostitutes
+1887,general,Peace (see also calm)
+1888,general,"Of bad luck, of storm"
+1888,general,Of bad luck
+1890,general,Posture
+1890,general,Pride
+1891,general,Shoulders
+1895,general,Penis
+1895,general,Planting (see also farming)
+1895,general,Scrotum
+1895,general,"Of bad luck, of fruiting season"
+1895,general,Of bad luck
+1896,general,Maunaloa
+1899,general,Pu'uhale
+1900,general,Pu'uhale
+1900,general,Skill (see also expert)
+1907,general,Signs
+1910,general,Remembrance
+1910,general,Scar
+1910,general,"Skin, burned"
+1910,general,Skin
+1912,general,Pu'uhale
+1914,general,"Platform, sacred"
+1917,general,"Mourning (see also burial, death, grief)"
+1917,general,Rain at death
+1920,general,Mistreatment
+1922,general,"'jeather""601"
+1923,general,Prosperity
+1924,general,Misfortune
+1926,general,Rain of Hilo
+1927,general,Money
+1927,general,"Size, loss of"
+1929,general,Noise
+1929,general,Repetition
+1932,general,Navel
+1934,general,Peace (see also calm)
+1934,general,Rest (see also relaxation)
+1936,general,Shade
+1939,general,Peace (see also calm)
+1939,general,"Sea, choppy"
+1939,general,Sea
+1940,general,Peace (see also calm)
+1941,general,Peace (see also calm)
+1941,general,Sea
+1942,general,Obvious
+1942,general,Opportunity
+1942,general,Promises
+1942,general,Reward
+1944,general,Penis
+1945,general,Pu'uhale
+1948,general,"Roots, shallow"
+1948,general,Roots
+1950,general,"Sand, black"
+1950,general,Sand
+1951,general,Opportunity
+1958,general,Muku
+1962,general,Sailor
+1963,general,Neglect
+1963,general,Prosperity
+1963,general,Rat
+1963,general,Skin
+1964,general,Peace (see also calm)
+1965,general,Peace (see also calm)
+1966,general,Sea
+1968,general,Nana
+1970,general,Neck
+1970,general,Sacrifice
+1972,general,Rainbow-hued rain
+1973,general,Multitude (see also crowd}
+1974,general,Panic
+1979,general,Sea
+1979,general,Pu'uhale
+1980,general,Sea
+1982,general,Sea
+1985,general,Penis
+1985,general,"Potency, sexual"
+1985,general,Shame
+1986,general,"Nights, Hilo, Kane"
+1986,general,"Nights, Hilo"
+1986,general,La'au
+1986,general,Scattering
+1987,general,Self-knowledge
+1990,general,"Mouth, always open"
+1990,general,Mouth
+1992,general,"Mouth, waters"
+1992,general,Mouth
+1993,general,Rude (see also manners)
+1994,general,Nose
+1994,general,"Nostril, hair in"
+1996,general,Mouth
+1996,general,Size
+1998,general,Skin
+2002,general,Scallops
+2002,general,Size
+2004,general,Selfishness
+2005,general,Music
+2005,general,Preoccupied
+2008,general,Posture
+2010,general,Moss
+2010,general,"Peace (see also calm), land"
+2010,general,Peace (see also calm)
+2012,general,Old age (see also aging)
+2012,general,"Sand, of 'Ali"
+2012,general,Sand
+2013,general,"Salt, in eyes"
+2013,general,Salt
+2016,general,"Of bad luck, of failure"
+2016,general,Of bad luck
+2017,general,Peace (see also calm)
+2017,general,Safety
+2017,general,Security
+2018,general,Rat
+2019,general,Progress
+2021,general,Rank (see also status)
+2022,general,Multitude (see also crowd}
+2022,general,Recreation
+2022,general,Relaxation
+2023,general,Pity
+2023,general,Rest (see also relaxation)
+2023,general,Shoulders
+2025,general,Pa'ie'ie
+2026,general,Prosperity
+2026,general,Sailor
+2033,general,Heavy rain
+2033,general,Sadness
+2034,general,Mist
+2034,general,Pouring rain
+2034,general,Rain of Hanalei
+2034,general,Sadness
+2037,general,Pity
+2038,general,Rain of Alaka'i
+2040,general,Punishment
+2041,general,Neck
+2041,general,Wa'ahila rain
+2041,general,Scar
+2043,general,Neck
+2045,general,Prudence
+2046,general,Pigs
+2046,general,Rain of Kona
+2046,general,Runners
+2047,general,Offensive
+2049,general,Prudence
+2050,general,Peace (see also calm)
+2051,general,Nose
+2052,general,Poi
+2053,general,Peace (see also calm)
+2055,general,Overlooked/oversight
+2059,general,Prayers
+2060,general,Peace (see also calm)
+2061,general,Old age (see also aging)
+2062,general,Prayers
+2062,general,Rest (see also relaxation)
+2065,general,"'jeather""601"
+2066,general,"Prayers, healing"
+2066,general,Prayers
+2066,general,Shoulders
+2067,general,Night
+2067,general,Revelation
+2070,general,"Sea, moaning"
+2070,general,Sea
+2072,general,"Pry (see also curiosity, inquisitiveness)"
+2073,general,Revelation (book of the Bible)
+2076,general,Prudence
+2080,general,Obvious
+2080,general,Satisfaction
+2082,general,Password
+2083,general,"'jeather""601"
+2085,general,Nets
+2086,general,Pool
+2087,general,Opportunity
+2089,general,Odor (see also fragrance)
+2089,general,Scandal
+2093,general,Makali'i
+2093,general,Plants
+2094,general,Sea
+2094,general,Ke'ehi
+2097,general,Of bad luck
+2099,general,Obvious
+2101,general,Provocation of rain
+2103,general,Sea
+2106,general,Pinworms
+2106,general,Poi
+2106,general,Return
+2110,general,Parasite (see also exploitation)
+2110,general,Posture
+2113,general,Of bad luck
+2116,general,Obedience
+2117,general,Prudence
+2118,general,Prudence
+2118,general,Rope
+2119,general,Prudence
+2120,general,Prudence
+2121,general,Prudence
+2122,general,Prudence
+2124,general,"Of bad luck, of  good weather"
+2124,general,Of bad luck
+2129,general,Need for rain
+2129,general,Sky
+2130,general,Peace (see also calm)
+2130,general,Plains
+2130,general,Quiet
+2132,general,"Path (see also road, trail)"
+2132,general,Runners
+2132,general,Safety
+2133,general,Misunderstanding
+2133,general,Sailor
+2134,general,Signs of rain
+2134,general,Of bad luck
+2135,general,"Planting (see also farming), taro"
+2135,general,Planting (see also farming)
+2135,general,Rafts
+2135,general,Roots
+2137,general,Servants
+2140,general,Multitude (see also crowd}
+2142,general,Mokoli'i
+2142,general,Pu'uhale
+2145,general,Skull
+2148,general,Maunaloa
+2150,general,Mouth
+2155,general,Promises
+2156,general,Neglect
+2156,general,"Possessions, care of"
+2156,general,Possessions
+2157,general,"Secret (see also concealment), by anger"
+2157,general,Secret (see also concealment)
+2158,general,Obedience
+2158,general,Pity
+2159,general,Selfishness
+2164,general,Plains
+2165,general,"Planting (see also farming), firstfruits"
+2165,general,Planting (see also farming)
+2177,general,Neck
+2181,general,"Possessions, scattered"
+2181,general,Possessions
+2182,general,Navel
+2182,general,"Relationship, blood"
+2182,general,"Of bad luck, of death"
+2182,general,Of bad luck
+2183,general,Punishment
+2183,general,Riddling
+2183,general,Shoulders
+2185,general,Sailing
+2185,general,Ships
+2186,general,Severance
+2188,general,Nets
+2188,general,"Nose, of f"
+2188,general,Nose
+2189,general,"Ownership, marks of"
+2189,general,"Pigs, ownership"
+2189,general,"Pigs, of chiefs"
+2189,general,Pigs
+2189,general,"Possessions, of achief"
+2189,general,Possessions
+2190,general,Obvious
+2192,general,Reef
+2195,general,"Prayers, potent"
+2195,general,Prayers
+2196,general,Mouth
+2196,general,Rude (see also manners)
+2196,general,Silence
+2199,general,Pu'uhale
+2199,general,"Seas, eight"
+2200,general,"Sea, choppy"
+2200,general,Sea
+2202,general,Pu'uhale
+2203,general,"Night, the"
+2203,general,Night
+2206,general,Namii
+2206,general,Nawa
+2207,general,Mist
+2209,general,Nets
+2220,general,Plains
+2221,general,Skin
+2222,general,Pinworms
+2223,general,"Relationship, blood, close"
+2223,general,"Relationship, blood"
+2224,general,"Seas, eight"
+2227,general,Offerings
+2227,general,Pigs
+2227,general,"Of bad luck, misfortune"
+2227,general,"Of bad luck, canoes"
+2227,general,Of bad luck
+2227,general,"Skin, cracked"
+2227,general,Skin
+2228,general,"'jeather""601, wearing children's clothing"
+2228,general,"'jeather""601"
+2230,general,Precedence
+2232,general,Missionaries
+2232,general,Pigs
+2232,general,Retribution
+2237,general,"Skin, dark"
+2237,general,Skin
+2238,general,Roots
+2242,general,Retreat (from danger)
+2244,general,Poi
+2244,general,"Principles, adherence to"
+2246,general,"Prosperity, days of"
+2246,general,Prosperity
+2250,general,Mist
+2256,general,Pu'uhale
+2257,general,Sky
+2258,general,Rain of Kawaihae
+2260,general,Oppression
+2260,general,Rebel
+2260,general,Rebellion
+2262,general,Ka'a'awa
+2263,general,Portuguese
+2265,general,"Path (see also road, trail)"
+2265,general,Respect
+2265,general,Siblings (see family)
+2266,general,"Sea, of Ho'ohiia"
+2266,general,Sea
+2268,general,Mouth
+2270,general,"Plants, standing alone"
+2270,general,Plants
+2271,general,"Of bad luck, of maturity"
+2271,general,Of bad luck
+2273,general,Pool
+2276,general,Poise
+2282,general,Muku
+2283,general,Music
+2283,general,Night
+2289,general,Restrictions
+2290,general,"Planting (see also farming), of sweet potato"
+2290,general,Planting (see also farming)
+2291,general,Provisions
+2293,general,Nana
+2294,general,"'jeather""601"
+2297,general,"Planting (see also farming), breadfruit"
+2297,general,Planting (see also farming)
+2301,general,"'jeather""601, road of"
+2301,general,"'jeather""601"
+2301,general,"Road, covered with grass"
+2302,general,Parents
+2303,general,"Mourning (see also burial, death, grief)"
+2303,general,Rain at death
+2305,general,"Sand, shifting"
+2305,general,Sand
+2307,general,Observation
+2308,general,Money
+2308,general,Obvious
+2308,general,Prosperity
+2308,general,Round
+2309,general,Ships
+2310,general,Sky
+2312,general,"Shells, land"
+2318,general,"Rain,  Deeds of rain"
+2321,general,"Months, Hi/ina"
+2324,general,Sidesaddle
+2325,general,"Opinion, unexpressed"
+2326,general,Missionaries
+2326,general,Rain of Hilo
+2326,general,"Sabbath, breaking of"
+2326,general,Silence
+2327,general,Preparation
+2328,general,Signs
+2331,general,'Ikuwa
+2334,general,"Pu'uhale, shallow"
+2334,general,Pu'uhale
+2334,general,Shallow-minded
+2337,general,Morning
+2340,general,Relaxation
+2342,general,Rank (see also status)
+2344,general,"Odor (see also fragrance), musty"
+2344,general,Odor (see also fragrance)
+2345,general,Possessions
+2346,general,Missionaries
+2347,general,Sigh
+2349,general,Size
+2351,general,Quilt
+2353,general,"Seas, eight"
+2355,general,Pool
+2357,general,Pu'uhale
+2359,general,Scarcity (see also lack)
+2360,general,Neck
+2360,general,Sacrifice
+2361,general,Night
+2362,general,Perfection
+2362,general,Shade
+2366,general,"'Ewa, hard work"
+2366,general,'Ewa
+2366,general,"Reward, for hard work"
+2366,general,Reward
+2367,general,"Mother (see also parents, wife, woman)"
+2368,general,"Night, long"
+2368,general,"Night, stretching"
+2368,general,Night
+2369,general,Hinaia'ele'ele
+2370,general,Hinaia'ele'ele
+2371,general,Hinaia'ele'ele
+2372,general,Nets
+2372,general,Parasite (see also exploitation)
+2373,general,Pu'uhale
+2374,general,Mouth
+2374,general,Prayers
+2383,general,Morning
+2383,general,Old age (see also aging)
+2384,general,Sameness
+2385,general,Nastiness
+2389,general,Hinaia'ele'ele
+2390,general,'Ikuwa
+2390,general,Pu'uhale
+2391,general,'Ikuwa
+2392,general,Obstacle
+2394,general,Prudence
+2395,general,Poi
+2395,general,Riddling
+2396,general,'Ikuwa
+2397,general,'Ikuwa
+2398,general,Old age (see also aging)
+2399,general,"'Ikuwa, Ka'elo"
+2399,general,'Ikuwa
+2400,general,"'Ikuwa, Ka'elo"
+2400,general,'Ikuwa
+2401,general,"'Ikuwa, Ka'elo"
+2401,general,'Ikuwa
+2407,general,Prudence
+2408,general,Procession
+2408,general,Red
+2408,general,Signs
+2409,general,Size
+2412,general,"Potency, sexual"
+2413,general,Prophecy
+2414,general,Passion
+2420,general,"Mouth, raw"
+2420,general,Mouth
+2423,general,Procrastination
+2423,general,Search
+2424,general,"'jeather""601, hold family together"
+2424,general,"'jeather""601"
+2427,general,"Possessions, care of"
+2427,general,Possessions
+2428,general,Past
+2431,general,Moon
+2431,general,"Muku, 'Olekukahi"
+2431,general,"Muku, 'Olekulua"
+2431,general,Muku
+2434,general,"Peak, ascent of"
+2437,general,Reward
+2439,general,Possessions
+2442,general,Mist
+2442,general,"Problems (see also difficulties, trouble)"
+2443,general,"'Ikuwa, Kaulua"
+2443,general,'Ikuwa
+2443,general,Nets
+2444,general,"'Ikuwa, Kaulua"
+2444,general,'Ikuwa
+2444,general,Shoulders
+2445,general,Size
+2446,general,"Rank (see also status), of mate"
+2446,general,Rank (see also status)
+2447,general,Pool
+2448,general,Prayers
+2448,general,Shadow
+2449,general,Mouth
+2449,general,Paddle (see also canoe)
+2450,general,Planting (see also farming)
+2455,general,Patience
+2455,general,Perseverance
+2455,general,Response
+2456,general,Parasite (see also exploitation)
+2456,general,"Sand, clinging"
+2456,general,Sand
+2457,general,Morning
+2457,general,Procrastination
+2459,general,Practice
+2459,general,Site
+2461,general,Respect
+2461,general,Siblings (see family)
+2464,general,Skill (see also expert)
+2466,general,"Nose, fly on"
+2466,general,Nose
+2466,general,Sailor
+2468,general,Sand
+2469,general,Poise
+2474,general,Nana
+2474,general,Pillow
+2474,general,Relaxation
+2474,general,Rest (see also relaxation)
+2474,general,Pu'uhale
+2475,general,Offerings
+2475,general,Pigs
+2477,general,Old age (see also aging)
+2479,general,Multitude (see also crowd}
+2480,general,Poi
+2482,general,Rain Gives life
+2484,general,"Names, gift of"
+2484,general,Names
+2486,general,Wa'ahila rain
+2486,general,Rain of Nu'uanu
+2488,general,Respect
+2490,general,Poi
+2492,general,Protection
+2493,general,Paddle (see also canoe)
+2493,general,"Problems (see also difficulties, trouble)"
+2494,general,Sky
+2496,general,Shadow
+2497,general,Mouth
+2498,general,Natives
+2498,general,"Of bad luck, of weather"
+2498,general,Of bad luck
+2501,general,Prudence
+2502,general,"Nose, crusty"
+2502,general,Nose
+2506,general,Mahoehope
+2506,general,Shoulders
+2507,general,Mahoehope
+2507,general,Recklessness
+2509,general,Makali'i
+2510,general,La'au
+2511,general,Muku
+2512,general,Shrubbery
+2515,general,Size
+2516,general,Nana
+2517,general,Nana
+2517,general,Restlessness
+2522,general,Rainbow
+2522,general,Sky
+2524,general,Secret (see also concealment)
+2527,general,Moon
+2527,general,Muku
+2528,general,Nothingness
+2531,general,Nets
+2532,general,"Pu'uhale, rippling"
+2532,general,Pu'uhale
+2536,general,Sand
+2536,general,Shyness
+2538,general,"Planting (see also farming), unskilled"
+2538,general,Planting (see also farming)
+2540,general,Night
+2540,general,"Nose, nip on"
+2540,general,Nose
+2543,general,Signs
+2544,general,Oppression
+2544,general,Scarcity (see also lack)
+2546,general,"Of bad luck, of failure"
+2546,general,Of bad luck
+2548,general,Pool
+2549,general,Nana
+2550,general,Nana
+2551,general,"Nana, Welo"
+2551,general,Nana
+2552,general,Sailor
+2553,general,Missionaries
+2553,general,Religion
+2553,general,"Rules, adherence to (see also kapu, law)"
+2554,general,Paddle (see also canoe)
+2556,general,Oath
+2558,general,Ships
+2559,general,Mouth
+2562,general,'Ikuwa
+2563,general,Salt
+2570,general,Music
+2571,general,Music
+2572,general,Opponents
+2573,general,Shyness
+2574,general,Prosperity
+2576,general,Obstacle
+2576,general,"Progress, prevention of"
+2576,general,Progress
+2577,general,Mouth
+2578,general,Poi
+2578,general,Scarcity (see also lack)
+2581,general,Pail
+2581,general,Salesmen
+2582,general,"Nose, flat"
+2582,general,Nose
+2582,general,Sand
+2583,general,Saliva
+2583,general,Scolding/repro of
+2584,general,"Of bad luck, of maturity"
+2584,general,Of bad luck
+2586,general,"Mouth, turned down"
+2586,general,Mouth
+2586,general,"Problems (see also difficulties, trouble), many"
+2586,general,"Problems (see also difficulties, trouble)"
+2589,general,Neck
+2590,general,Rotten (see also decomposition)
+2591,general,Of bad luck
+2592,general,Prophet
+2593,general,Shore-dweller
+2595,general,Moon
+2599,general,Mouth
+2599,general,Promises
+2602,general,"Platform, sacred"
+2604,general,Modesty
+2604,general,Shield
+2604,general,Skirt/pa'u
+2608,general,Mud
+2608,general,Mudslinging
+2608,general,Scandal
+2610,general,"Nets, gnawed"
+2610,general,Nets
+2610,general,Rat
+2611,general,Reality
+2611,general,Revelation
+2612,general,"Skin, dark"
+2612,general,Skin
+2612,general,Sky
+2614,general,Prosperity
+2614,general,Sailor
+2615,general,Poi
+2617,general,Oath
+2618,general,Mulch
+2618,general,Planting (see also farming)
+2620,general,Of bad luck
+2621,general,Observation
+2621,general,Skill (see also expert)
+2622,general,Posture
+2622,general,Protection
+2625,general,Paste
+2626,general,Bruising rain
+2626,general,"Skin, bruised"
+2626,general,Skin
+2627,general,Obedience
+2628,general,Morning rain
+2628,general,Sadness
+2628,general,Shrubbery
+2629,general,Salt
+2630,general,"Skill, in sports"
+2630,general,Skill (see also expert)
+2631,general,Nonsense
+2631,general,Railroad
+2631,general,"Sand, dirty"
+2631,general,Sand
+2637,general,Red
+2638,general,Pu'uhale
+2640,general,Poi
+2643,general,Nose
+2644,general,Posture
+2646,general,Silence
+2648,general,"Relationship, blood, insecure"
+2648,general,"Relationship, blood"
+2649,general,Parasite (see also exploitation)
+2653,general,Power
+2664,general,Salt
+2667,general,"Signs, of anger"
+2667,general,Signs
+2667,general,Of bad luck
+2668,general,Reeds
+2669,general,Noise
+2670,general,Reward
+2671,general,Rascal (see also mischiefmaker)
+2671,general,Reward
+2674,general,"Skin, dark"
+2674,general,Skin
+2679,general,Kanilehua rain
+2679,general,Rain of Hilo
+2679,general,Sadness
+2680,general,Semen
+2682,general,Peace (see also calm)
+2683,general,Roots
+2684,general,Money
+2684,general,Prosperity
+2685,general,Rain of 'ohi'a forests
+2685,general,Siblings (see family)
+2688,general,Mouth
+2688,general,"Prayers, of a fisherman"
+2688,general,Prayers
+2689,general,Mist
+2690,general,Money
+2690,general,Price
+2691,general,"Problems (see also difficulties, trouble), remedyfor"
+2691,general,"Problems (see also difficulties, trouble)"
+2694,general,Sea
+2696,general,Of bad luck
+2699,general,Poi
+2699,general,Shore-dweller
+2700,general,Malulani
+2701,general,Rivalry
+2706,general,Patience
+2712,general,"Platform, sacred"
+2713,general,Scattering
+2718,general,Nose
+2721,general,Prudence
+2722,general,Prayers
+2722,general,Revenge
+2724,general,Nets
+2726,general,"Mother (see also parents, wife, woman)"
+2734,general,'Ikuwa
+2734,general,Pu'uhale
+2736,general,"Obscurity, emergence from"
+2737,general,Kanilehua rain
+2738,general,Rain of winter
+2743,general,Parents
+2745,general,Sea
+2746,general,"Sea, dancing"
+2746,general,Sea
+2748,general,"Placenta, burial of"
+2751,general,Secret (see also concealment)
+2752,general,Pool
+2752,general,Secret (see also concealment)
+2755,general,Sea
+2757,general,"Names, fragrant"
+2757,general,Names
+2758,general,"Progress, importance of unity for"
+2758,general,Progress
+2759,general,Obstacle
+2759,general,Progress
+2759,general,Sea
+2762,general,Shore-dweller
+2763,general,Pregnancy
+2764,general,Rain of Kawaupu'u
+2765,general,Neck
+2767,general,Scandal
+2768,general,Preparation
+2769,general,"Parents, care of"
+2769,general,Parents
+2771,general,Skill (see also expert)
+2772,general,Offerings
+2772,general,"Pigs, brains of"
+2772,general,Pigs
+2772,general,Practice
+2775,general,Skin
+2776,general,"Night, workers of the"
+2776,general,Night
+2777,general,"Of bad luck, canoes"
+2777,general,Of bad luck
+2778,general,Peace (see also calm)
+2781,general,Nana
+2782,general,Rain of winter
+2785,general,"Pigs, rooting of"
+2785,general,"Pigs, of"
+2785,general,Pigs
+2785,general,"Potency, sexual"
+2787,general,"Of bad luck, of weather"
+2787,general,Of bad luck
+2790,general,Plants
+2791,general,"Problems (see also difficulties, trouble)"
+2794,general,Mouth
+2794,general,Punishment
+2794,general,Repentance
+2795,general,Of bad luck
+2798,general,"Of bad luck, disappointment"
+2798,general,Of bad luck
+2799,general,Pregnancy
+2802,general,Plains
+2802,general,"Rain, Brings life"
+2803,general,"Peak, ascent of"
+2803,general,Reward
+2806,general,Narrowness
+2809,general,"Peace (see also calm), perfect"
+2809,general,Peace (see also calm)
+2811,general,Proximity
+2812,general,Pregnancy
+2813,general,Shoulders
+2816,general,Protection
+2816,general,Sea
+2817,general,Recreation
+2819,general,"Possessions, cheated out of"
+2819,general,Possessions
+2823,general,Old age (see also aging)
+2826,general,Peace (see also calm)
+2826,general,Sea
+2826,general,Mokoli'i
+2827,general,Old age (see also aging)
+2829,general,"Motto, of Hawai'i"
+2829,general,Preservation
+2829,general,Righteousness
+2830,general,"Secret (see also concealment), of fire"
+2830,general,Secret (see also concealment)
+2833,general,Security
+2834,general,"Sea, forbidden"
+2834,general,Sea
+2838,general,Shore-dweller
+2840,general,Neck
+2840,general,Safety
+2842,general,Of bad luck
+2851,general,Skin
+2853,general,Pregnancy
+2857,general,Size
+2858,general,Sky
+2859,general,Mud
+2861,general,Rumbling
+2864,general,Sea
+2864,general,Silliness
+2865,general,Sea
+2866,general,Mist
+2866,general,"Of bad luck, of storm"
+2866,general,Of bad luck
+2868,general,Skeletons
+2871,general,Odor (see also fragrance)
+2873,general,"Nose, pulled"
+2873,general,Nose
+2875,general,Patience
+2875,general,Perseverance
+2876,general,Shoulders
+2877,general,Patience
+2878,general,Poverty (see also destitution)
+2879,general,Recreation
+2880,general,Rat
+2881,general,Needle
+2882,general,"Nose, flat"
+2882,general,Nose
+2884,general,"Progress, little"
+2884,general,Progress
+2887,general,Self-importance
+2888,general,Sky
+2892,general,Rat
+2894,general,Selection
+2895,general,Selection
+2896,general,"Mouth, clucking"
+2896,general,Mouth
+2897,general,"Mouth, protruding"
+2897,general,"Mouth, rum"
+2897,general,Mouth
+2898,general,"Mouth, slanderous"
+2898,general,"Mouth, venomous"
+2898,general,Mouth
+2899,general,Offerings
+2899,general,"Piety, sign of"
+2899,general,"Of bad luck, of  piety"
+2899,general,Of bad luck
+2900,general,Prostitutes
+2900,general,Sailor
+2901,general,Nets
+2902,general,Peace (see also calm)
+2905,general,Obvious
+2905,general,Plains
+2907,general,Obvious
+2909,general,Revelation
+2909,general,Secret (see also concealment)
+2910,general,Poi
+2912,general,Shelter (see also protection)
+2913,general,Kipu'upu'u rain
+2913,general,Rain of Waimea
+2918,general,Rebellion
+2920,general,Multitude (see also crowd}
+2922,general,Mist
+2922,general,"Mountain (see also hill, summit)"
+2924,general,Rebellion
+2924,general,"Relationship, blood"
+2926,general,Ships
+2927,general,Sea
+2929,general,Opportunity
+2930,general,"Sea, of Ho'ohiia"
+2930,general,Sea
+2930,general,Pu'uhale
+2930,general,Of bad luck
+2932,general,Nana
+2933,general,Phosphorescence
+2933,general,"Sea, glowing"
+2933,general,Sea
+2935,general,"Nana, Welo"
+2935,general,Nana
+2935,general,Rat
+2937,general,Runners
+2938,general,Rascal (see also mischiefmaker)
+2942,general,Point

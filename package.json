@@ -1,0 +1,38 @@
+{
+  "name": "olelo-noeau-search",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "import": "tsx Scripts/import-json.ts",
+    "supabase:check": "tsx Scripts/check-supabase-link.ts",
+    "supabase:db-report": "tsx Scripts/supabase-db-report.ts",
+    "migrate": "npx supabase db push"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.93.1",
+    "@types/node": "^25.0.10",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.23",
+    "next": "^16.1.6",
+    "pdfplumber": "^0.0.1-security",
+    "postcss": "^8.5.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "swr": "^2.3.8",
+    "typescript": "^5.9.3",
+    "use-debounce": "^10.1.0"
+  },
+  "devDependencies": {
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.3",
+    "supabase": "^2.72.9",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.21.0"
+  }
+}
