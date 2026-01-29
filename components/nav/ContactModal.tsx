@@ -44,7 +44,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
         </div>
         <div className="space-y-3">
           <p className="text-text/80">
-            Want the database? Email me{' '}
+            Questions? Need the database? Email me{' '}
             <a
               href="mailto:info@olelonoeau.com"
               className="link-text hover:underline"

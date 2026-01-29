@@ -4,6 +4,7 @@ import { createServiceClient } from '@/lib/supabase/service';
 async function getMembersCount(): Promise<number> {
   try {
     const supabase = createServiceClient();
+    if (!supabase) return 0;
     const { data, error } = await supabase.auth.admin.listUsers();
     if (error) return 0;
     return data?.users?.length ?? 0;

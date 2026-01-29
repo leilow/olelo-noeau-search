@@ -23,7 +23,8 @@ export async function POST(request: NextRequest) {
       .digest('hex');
 
     const supabase = createServiceClient();
-    
+    if (!supabase) return NextResponse.json({ success: true });
+
     // Upsert visitor (update last_seen if exists, insert if not)
     const { error } = await supabase
       .from('visitors')

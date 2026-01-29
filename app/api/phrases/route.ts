@@ -4,7 +4,8 @@ import { createClient } from '@/lib/supabase/server';
 export async function GET() {
   try {
     const supabase = await createClient();
-    
+    if (!supabase) return NextResponse.json({ error: 'Database not configured' }, { status: 503 });
+
     // Fetch all phrases - Supabase has a default max-rows limit, so we fetch in batches
     const allPhrases: any[] = [];
     const batchSize = 1000;

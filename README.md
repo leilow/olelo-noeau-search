@@ -15,6 +15,11 @@ Search + index for ʻōlelo noʻeau (Hawaiian poetical sayings). Next.js, Supaba
 - Set env vars on your host (Vercel, etc.): `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `IP_HASH_SALT`
 - `npm run build` && `npm start` (or connect repo to host)
 
+**Production: database not loading?**  
+1. Vercel → Project → Settings → Environment Variables — all four Supabase vars set for **Production**.  
+2. Supabase has data: run `npm run import` locally (your `.env.local` must point to the same Supabase project).  
+3. Vercel → Deployments → latest → Logs — check for 500 or "Missing …" env errors.
+
 ## Scripts
 
 - `npm run dev` — dev server

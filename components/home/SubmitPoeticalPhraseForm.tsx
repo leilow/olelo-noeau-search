@@ -18,15 +18,36 @@ export default function SubmitPoeticalPhraseForm() {
   const [focusedField, setFocusedField] = useState<string | null>(null);
   const [hoveredField, setHoveredField] = useState<string | null>(null);
   const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
+  const [turnstileError, setTurnstileError] = useState<string | null>(null);
 
   const turnstileCallback = useCallback((token: string) => {
     setTurnstileToken(token);
+    setTurnstileError(null);
+  }, []);
+
+  const turnstileErrorCallback = useCallback((errorCode: string) => {
+    setTurnstileToken(null);
+    setTurnstileError(errorCode);
+    return true; // prevent Turnstile from throwing
+  }, []);
+
+  const retryTurnstile = useCallback(() => {
+    setTurnstileError(null);
+    setTurnstileToken(null);
+    if (typeof window !== 'undefined' && (window as unknown as { turnstile?: { reset: (id?: string) => void } }).turnstile?.reset) {
+      (window as unknown as { turnstile: { reset: (id?: string) => void } }).turnstile.reset(TURNSTILE_WIDGET_ID);
+    }
   }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && !turnstileToken) {
-      setMessage({ type: 'error', text: 'Please complete the verification below.' });
+      setMessage({
+        type: 'error',
+        text: turnstileError
+          ? `Verification failed (${turnstileError}). Add this domain in Cloudflare Turnstile, or click Retry below.`
+          : 'Please complete the verification below.',
+      });
       return;
     }
     setSubmitting(true);
@@ -210,6 +231,7 @@ export default function SubmitPoeticalPhraseForm() {
               strategy="afterInteractive"
               onLoad={() => {
                 (window as unknown as { turnstileSubmitCb: (token: string) => void }).turnstileSubmitCb = (token: string) => turnstileCallback(token);
+                (window as unknown as { turnstileErrorCb: (code: string) => boolean }).turnstileErrorCb = (code: string) => turnstileErrorCallback(code);
               }}
             />
             <div
@@ -217,7 +239,14 @@ export default function SubmitPoeticalPhraseForm() {
               id={TURNSTILE_WIDGET_ID}
               data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
               data-callback="turnstileSubmitCb"
+              data-error-callback="turnstileErrorCb"
             />
+            {turnstileError && (
+              <p className="text-sm mt-2" style={{ color: '#991b1b' }}>
+                Verification failed. Add your domain in Cloudflare Turnstile (Dashboard → Turnstile → your widget → Domains), or{' '}
+                <button type="button" onClick={retryTurnstile} className="underline font-medium">Retry</button>.
+              </p>
+            )}
           </>
         )}
         {message && (

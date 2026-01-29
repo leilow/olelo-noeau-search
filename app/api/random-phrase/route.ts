@@ -29,7 +29,8 @@ async function getWeather(): Promise<string> {
 export async function GET() {
   try {
     const supabase = await createClient();
-    
+    if (!supabase) return NextResponse.json({ error: 'No phrases available' }, { status: 404 });
+
     // Get total count of phrases
     const { count } = await supabase
       .from('phrases')

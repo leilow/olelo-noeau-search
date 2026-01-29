@@ -4,6 +4,7 @@ import { createServiceClient } from '@/lib/supabase/service';
 export async function GET() {
   try {
     const supabase = createServiceClient();
+    if (!supabase) return NextResponse.json({ count: 0 });
     const { data, error } = await supabase.auth.admin.listUsers();
     const count = data?.users?.length || 0;
 

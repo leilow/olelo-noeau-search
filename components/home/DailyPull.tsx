@@ -13,21 +13,24 @@ interface DailyPullData {
 export default function DailyPull() {
   const [data, setData] = useState<DailyPullData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [isRandom, setIsRandom] = useState(false);
 
   const fetchDailyPull = async () => {
     try {
       setLoading(true);
-      const response = await fetch('/api/daily-pull', {
-        cache: 'no-store',
-      });
+      setError(null);
+      const response = await fetch('/api/daily-pull', { cache: 'no-store' });
       if (response.ok) {
         const result = await response.json();
         setData(result);
         setIsRandom(false);
+      } else {
+        setError(response.status === 404 ? 'No phrases in database yet.' : `Could not load (${response.status}).`);
       }
     } catch (error) {
       console.error('Error fetching daily pull:', error);
+      setError('Network or server error.');
     } finally {
       setLoading(false);
     }
@@ -36,16 +39,18 @@ export default function DailyPull() {
   const fetchRandom = async () => {
     try {
       setLoading(true);
-      const response = await fetch('/api/random-phrase', {
-        cache: 'no-store',
-      });
+      setError(null);
+      const response = await fetch('/api/random-phrase', { cache: 'no-store' });
       if (response.ok) {
         const result = await response.json();
         setData(result);
         setIsRandom(true);
+      } else {
+        setError(`Could not load (${response.status}).`);
       }
     } catch (error) {
       console.error('Error fetching random phrase:', error);
+      setError('Network or server error.');
     } finally {
       setLoading(false);
     }
@@ -68,7 +73,10 @@ export default function DailyPull() {
     return (
       <section className="bg-white/60 backdrop-blur-sm p-6 rounded-lg shadow-sm" style={{ backgroundColor: 'rgba(234, 234, 210, 0.7)' }}>
         <h2 className="text-2xl font-heading font-bold mb-4" style={{ color: '#2c2416' }}>Daily Pull</h2>
-        <p className="text-text/70" style={{ color: '#5a4f3f' }}>Unable to load daily phrase.</p>
+        <p className="text-text/70" style={{ color: '#5a4f3f' }}>
+          {error || 'Unable to load daily phrase.'}
+        </p>
+        <button onClick={fetchDailyPull} className="button-base mt-2">Try again</button>
       </section>
     );
   }

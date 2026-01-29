@@ -1,12 +1,10 @@
-import { createServerClient } from '@supabase/ssr';
+import { createServerClient, SupabaseClient } from '@supabase/ssr';
 import { cookies } from 'next/headers';
 
-export async function createClient() {
+export async function createClient(): Promise<SupabaseClient | null> {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if (!url || !key) {
-    throw new Error('Missing NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_ANON_KEY');
-  }
+  if (!url || !key) return null;
   const cookieStore = await cookies();
 
   return createServerClient(

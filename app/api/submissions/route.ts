@@ -36,6 +36,7 @@ export async function POST(request: Request) {
     }
 
     const supabase = await createClient();
+    if (!supabase) return NextResponse.json({ error: 'Submissions unavailable' }, { status: 503 });
     const { data: { user } } = await supabase.auth.getUser();
 
     const { error } = await supabase
