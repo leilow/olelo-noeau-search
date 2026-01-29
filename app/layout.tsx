@@ -19,9 +19,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const baseUrl =
-    process.env.NEXT_PUBLIC_BASE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://example.com');
+  // Use only your domain; never the Vercel deployment URL
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.olelonoeau.com';
 
   const webSiteSchema = {
     '@context': 'https://schema.org',
