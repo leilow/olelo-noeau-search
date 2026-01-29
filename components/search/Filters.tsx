@@ -53,6 +53,7 @@ export default function Filters({
     phraseNumber: false,
   });
   const [tagSearch, setTagSearch] = useState('');
+  const [showHelp, setShowHelp] = useState(false);
 
   const toggleHawaiian = (letter: string) => {
     if (hawaiianLetters.includes(letter)) {
@@ -149,7 +150,18 @@ export default function Filters({
   return (
     <div className="space-y-4">
       {/* Relational Filters: Category, Index Search, Tags */}
-      <div className="flex flex-wrap gap-2 sm:gap-4 justify-center px-2">
+      <div className="flex flex-wrap gap-2 sm:gap-4 justify-center items-center px-2">
+        {/* Help (?) – click to show/hide; never auto-opens */}
+        <button
+          type="button"
+          onClick={() => setShowHelp((v) => !v)}
+          className="flex items-center justify-center w-8 h-8 rounded-full border-2 border-text/30 text-text/70 hover:text-text hover:border-text/50 hover:bg-button/50 font-mono text-sm transition-colors"
+          aria-expanded={showHelp}
+          aria-label={showHelp ? 'Hide search help' : 'How do these filters work?'}
+          title="How do these filters work?"
+        >
+          ?
+        </button>
         {/* Hawaiian Alphabet */}
         <div className="relative">
           <button
@@ -442,6 +454,26 @@ export default function Filters({
           </button>
         )}
       </div>
+
+      {/* Inline help – only visible when (?) is clicked; easy to read, no popup */}
+      {showHelp && (
+        <div
+          className="bg-button/40 border border-button/50 rounded-none px-4 py-3 text-sm text-text/90 max-w-2xl mx-auto"
+          role="region"
+          aria-label="Search filters help"
+        >
+          <p className="font-medium mb-2" style={{ color: '#2c2416' }}>How the filters work</p>
+          <ul className="space-y-1.5 list-none text-left">
+            <li><strong>Search box</strong> — Type 2+ characters to search Hawaiian phrase, English meaning, and tags.</li>
+            <li><strong>Hawaiian Alphabet</strong> — Filter by first letter of the Hawaiian phrase.</li>
+            <li><strong>Category</strong> — Filter by category (e.g. Nature, People). Combine with others.</li>
+            <li><strong>Index Search</strong> — Filter by first letter of tags (A–Z index). Works with Category.</li>
+            <li><strong>Tags</strong> — Pick specific tags. Results must include all selected tags.</li>
+            <li><strong>Number</strong> — Filter by phrase number or range (e.g. 100 or 1-100).</li>
+          </ul>
+          <p className="mt-2 text-text/60 text-xs">Filters work together (narrow results). Clear All resets everything.</p>
+        </div>
+      )}
     </div>
   );
 }
