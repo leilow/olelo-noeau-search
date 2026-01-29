@@ -4,6 +4,8 @@ import SubmitPoeticalPhraseForm from '@/components/home/SubmitPoeticalPhraseForm
 import VisitorCount from '@/components/metrics/VisitorCount';
 import MembersCount from '@/components/metrics/MembersCount';
 
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">

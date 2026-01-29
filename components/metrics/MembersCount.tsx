@@ -1,16 +1,15 @@
 import MetricCard from './MetricCard';
+import { createServiceClient } from '@/lib/supabase/service';
 
 async function getMembersCount(): Promise<number> {
   try {
-    const response = await fetch('/api/members/count', { cache: 'no-store' });
-    if (response.ok) {
-      const data = await response.json();
-      return data.count ?? 0;
-    }
-  } catch (error) {
-    console.error('Error fetching members count:', error);
+    const supabase = createServiceClient();
+    const { data, error } = await supabase.auth.admin.listUsers();
+    if (error) return 0;
+    return data?.users?.length ?? 0;
+  } catch {
+    return 0;
   }
-  return 0;
 }
 
 export default async function MembersCount() {
