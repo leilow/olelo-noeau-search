@@ -1,9 +1,6 @@
 'use client';
 
-import Script from 'next/script';
-import { useState, useCallback } from 'react';
-
-const TURNSTILE_WIDGET_ID = 'turnstile-submit-phrase';
+import { useState } from 'react';
 
 export default function SubmitPoeticalPhraseForm() {
   const [formData, setFormData] = useState({
@@ -12,44 +9,15 @@ export default function SubmitPoeticalPhraseForm() {
     kaona_deeper_meaning: '',
     email: '',
     can_share_publicly: false,
+    website: '', // honeypot – leave empty; bots often fill it
   });
   const [submitting, setSubmitting] = useState(false);
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
   const [focusedField, setFocusedField] = useState<string | null>(null);
   const [hoveredField, setHoveredField] = useState<string | null>(null);
-  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
-  const [turnstileError, setTurnstileError] = useState<string | null>(null);
-
-  const turnstileCallback = useCallback((token: string) => {
-    setTurnstileToken(token);
-    setTurnstileError(null);
-  }, []);
-
-  const turnstileErrorCallback = useCallback((errorCode: string) => {
-    setTurnstileToken(null);
-    setTurnstileError(errorCode);
-    return true; // prevent Turnstile from throwing
-  }, []);
-
-  const retryTurnstile = useCallback(() => {
-    setTurnstileError(null);
-    setTurnstileToken(null);
-    if (typeof window !== 'undefined' && (window as unknown as { turnstile?: { reset: (id?: string) => void } }).turnstile?.reset) {
-      (window as unknown as { turnstile: { reset: (id?: string) => void } }).turnstile.reset(TURNSTILE_WIDGET_ID);
-    }
-  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && !turnstileToken) {
-      setMessage({
-        type: 'error',
-        text: turnstileError
-          ? `Verification failed (${turnstileError}). Add this domain in Cloudflare Turnstile, or click Retry below.`
-          : 'Please complete the verification below.',
-      });
-      return;
-    }
     setSubmitting(true);
     setMessage(null);
 
@@ -57,7 +25,14 @@ export default function SubmitPoeticalPhraseForm() {
       const response = await fetch('/api/submissions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...formData, 'cf-turnstile-response': turnstileToken }),
+        body: JSON.stringify({
+          hawaiian_or_pidgin_phrase: formData.hawaiian_or_pidgin_phrase,
+          english_meaning: formData.english_meaning,
+          kaona_deeper_meaning: formData.kaona_deeper_meaning,
+          email: formData.email,
+          can_share_publicly: formData.can_share_publicly,
+          website: formData.website,
+        }),
       });
 
       if (response.ok) {
@@ -68,13 +43,12 @@ export default function SubmitPoeticalPhraseForm() {
           kaona_deeper_meaning: '',
           email: '',
           can_share_publicly: false,
+          website: '',
         });
-        setTurnstileToken(null);
-        if (typeof window !== 'undefined' && (window as unknown as { turnstile?: { reset: (id?: string) => void } }).turnstile?.reset) {
-          (window as unknown as { turnstile: { reset: (id?: string) => void } }).turnstile.reset(TURNSTILE_WIDGET_ID);
-        }
       } else {
-        setMessage({ type: 'error', text: 'There was an error submitting your phrase. Please try again.' });
+        const data = (await response.json().catch(() => ({}))) as { error?: string };
+        const msg = data?.error || `There was an error submitting your phrase (${response.status}). Please try again.`;
+        setMessage({ type: 'error', text: msg });
       }
     } catch (error) {
       setMessage({ type: 'error', text: 'There was an error submitting your phrase. Please try again.' });
@@ -87,6 +61,19 @@ export default function SubmitPoeticalPhraseForm() {
     <section className="p-8 rounded-lg shadow-sm border border-text/10" style={{ backgroundColor: '#FBF4E6' }}>
       <h2 className="text-2xl font-heading font-bold mb-6" style={{ color: '#2c2416' }}>Submit a Poetical Phrase</h2>
       <form onSubmit={handleSubmit} className="space-y-5">
+        {/* Honeypot – hidden from users; bots that fill it get rejected */}
+        <div className="absolute -left-[9999px] w-1 h-1 overflow-hidden" aria-hidden="true">
+          <label htmlFor="website">Website</label>
+          <input
+            type="text"
+            id="website"
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+            value={formData.website}
+            onChange={(e) => setFormData({ ...formData, website: e.target.value })}
+          />
+        </div>
         <div>
           <label htmlFor="hawaiian_or_pidgin_phrase" className="block font-body mb-2 text-sm font-medium" style={{ color: '#3d3424' }}>
             Hawaiian or Pidgin Phrase *
@@ -108,13 +95,14 @@ export default function SubmitPoeticalPhraseForm() {
                 ? 'bg-button border-highlight'
                 : 'border-text/20'
             }`}
-            style={{ 
-              backgroundColor: focusedField === 'hawaiian_or_pidgin_phrase' || formData.hawaiian_or_pidgin_phrase.trim().length > 0 
-                ? undefined 
-                : hoveredField === 'hawaiian_or_pidgin_phrase' 
-                ? undefined 
-                : '#FBF4E6',
-              color: '#2c2416' 
+            style={{
+              backgroundColor:
+                focusedField === 'hawaiian_or_pidgin_phrase' || formData.hawaiian_or_pidgin_phrase.trim().length > 0
+                  ? undefined
+                  : hoveredField === 'hawaiian_or_pidgin_phrase'
+                  ? undefined
+                  : '#FBF4E6',
+              color: '#2c2416',
             }}
           />
         </div>
@@ -139,13 +127,14 @@ export default function SubmitPoeticalPhraseForm() {
                 ? 'bg-button border-highlight'
                 : 'border-text/20'
             }`}
-            style={{ 
-              backgroundColor: focusedField === 'english_meaning' || formData.english_meaning.trim().length > 0 
-                ? undefined 
-                : hoveredField === 'english_meaning' 
-                ? undefined 
-                : '#FBF4E6',
-              color: '#2c2416' 
+            style={{
+              backgroundColor:
+                focusedField === 'english_meaning' || formData.english_meaning.trim().length > 0
+                  ? undefined
+                  : hoveredField === 'english_meaning'
+                  ? undefined
+                  : '#FBF4E6',
+              color: '#2c2416',
             }}
           />
         </div>
@@ -170,13 +159,14 @@ export default function SubmitPoeticalPhraseForm() {
                 ? 'bg-button border-highlight'
                 : 'border-text/20'
             }`}
-            style={{ 
-              backgroundColor: focusedField === 'kaona_deeper_meaning' || formData.kaona_deeper_meaning.trim().length > 0 
-                ? undefined 
-                : hoveredField === 'kaona_deeper_meaning' 
-                ? undefined 
-                : '#FBF4E6',
-              color: '#2c2416' 
+            style={{
+              backgroundColor:
+                focusedField === 'kaona_deeper_meaning' || formData.kaona_deeper_meaning.trim().length > 0
+                  ? undefined
+                  : hoveredField === 'kaona_deeper_meaning'
+                  ? undefined
+                  : '#FBF4E6',
+              color: '#2c2416',
             }}
           />
         </div>
@@ -201,13 +191,14 @@ export default function SubmitPoeticalPhraseForm() {
                 ? 'bg-button border-highlight'
                 : 'border-text/20'
             }`}
-            style={{ 
-              backgroundColor: focusedField === 'email' || formData.email.trim().length > 0 
-                ? undefined 
-                : hoveredField === 'email' 
-                ? undefined 
-                : '#FBF4E6',
-              color: '#2c2416' 
+            style={{
+              backgroundColor:
+                focusedField === 'email' || formData.email.trim().length > 0
+                  ? undefined
+                  : hoveredField === 'email'
+                  ? undefined
+                  : '#FBF4E6',
+              color: '#2c2416',
             }}
           />
         </div>
@@ -224,43 +215,16 @@ export default function SubmitPoeticalPhraseForm() {
             Can we share publicly?
           </label>
         </div>
-        {process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && (
-          <>
-            <Script
-              src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-              strategy="afterInteractive"
-              onLoad={() => {
-                (window as unknown as { turnstileSubmitCb: (token: string) => void }).turnstileSubmitCb = (token: string) => turnstileCallback(token);
-                (window as unknown as { turnstileErrorCb: (code: string) => boolean }).turnstileErrorCb = (code: string) => turnstileErrorCallback(code);
-              }}
-            />
-            <div
-              className="cf-turnstile"
-              id={TURNSTILE_WIDGET_ID}
-              data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
-              data-callback="turnstileSubmitCb"
-              data-error-callback="turnstileErrorCb"
-            />
-            {turnstileError && (
-              <p className="text-sm mt-2" style={{ color: '#991b1b' }}>
-                Verification failed. Add your domain in Cloudflare Turnstile (Dashboard → Turnstile → your widget → Domains), or{' '}
-                <button type="button" onClick={retryTurnstile} className="underline font-medium">Retry</button>.
-              </p>
-            )}
-          </>
-        )}
         {message && (
-          <div className={`p-4 rounded-lg border ${
-            message.type === 'success' 
-              ? 'border-green-300/50' 
-              : 'border-red-300/50'
-          }`}
-          style={{
-            backgroundColor: message.type === 'success' 
-              ? 'rgba(220, 252, 231, 0.6)' 
-              : 'rgba(254, 226, 226, 0.6)',
-            color: message.type === 'success' ? '#166534' : '#991b1b'
-          }}>
+          <div
+            className={`p-4 rounded-lg border ${
+              message.type === 'success' ? 'border-green-300/50' : 'border-red-300/50'
+            }`}
+            style={{
+              backgroundColor: message.type === 'success' ? 'rgba(220, 252, 231, 0.6)' : 'rgba(254, 226, 226, 0.6)',
+              color: message.type === 'success' ? '#166534' : '#991b1b',
+            }}
+          >
             {message.text}
           </div>
         )}

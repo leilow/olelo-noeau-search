@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
+import { getMoonPhase, getWeather } from '@/lib/daily-apis';
 
 // Simple in-memory cache (in production, use Redis or similar)
 let cache: {
@@ -18,33 +19,6 @@ function getDayOfYear(date: Date): number {
   const start = new Date(date.getFullYear(), 0, 0);
   const diff = date.getTime() - start.getTime();
   return Math.floor(diff / (1000 * 60 * 60 * 24));
-}
-
-async function getMoonPhase(): Promise<string> {
-  // Simplified moon phase calculation
-  // In production, use a proper moon phase API or library
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = now.getMonth() + 1;
-  const day = now.getDate();
-  
-  // Simple approximation (not astronomically accurate)
-  const daysSinceNewMoon = (year * 365 + month * 30 + day) % 29.5;
-  
-  if (daysSinceNewMoon < 3.7) return 'New Moon';
-  if (daysSinceNewMoon < 7.4) return 'Waxing Crescent';
-  if (daysSinceNewMoon < 11.1) return 'First Quarter';
-  if (daysSinceNewMoon < 14.8) return 'Waxing Gibbous';
-  if (daysSinceNewMoon < 18.5) return 'Full Moon';
-  if (daysSinceNewMoon < 22.2) return 'Waning Gibbous';
-  if (daysSinceNewMoon < 25.9) return 'Last Quarter';
-  return 'Waning Crescent';
-}
-
-async function getWeather(): Promise<string> {
-  // Placeholder - in production, use a weather API
-  // For now, return a simple message
-  return 'Sunny, 78°F';
 }
 
 export async function GET() {
