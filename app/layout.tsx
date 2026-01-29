@@ -19,43 +19,31 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const baseUrl =
+    process.env.NEXT_PUBLIC_BASE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://example.com');
+
+  const webSiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: "ʻŌlelo Noʻeau Search",
+    description: 'A searchable index of ʻōlelo noʻeau — Hawaiian poetical sayings. Browse, search, and filter by Hawaiian letter, category, and tags.',
+    url: baseUrl,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `${baseUrl}/search?q={search_term_string}` },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
   return (
     <html lang="en">
+      {/* Proprietary. © All rights reserved. */}
       <body>
-        {/* ⚠️ DEPLOYMENT NOTE: Remove this script before deploying to production!
-            This bypasses localtunnel password page for development only. */}
         <script
+          type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                // Intercept fetch
-                const originalFetch = window.fetch;
-                window.fetch = function(...args) {
-                  const [url, options = {}] = args;
-                  const headers = new Headers(options.headers);
-                  headers.set('bypass-tunnel-reminder', '1');
-                  return originalFetch.apply(this, [url, { ...options, headers }]);
-                };
-                
-                // Intercept XMLHttpRequest
-                const originalOpen = XMLHttpRequest.prototype.open;
-                const originalSetRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
-                XMLHttpRequest.prototype.open = function(method, url, ...rest) {
-                  this._url = url;
-                  return originalOpen.apply(this, [method, url, ...rest]);
-                };
-                XMLHttpRequest.prototype.setRequestHeader = function(header, value) {
-                  if (header.toLowerCase() !== 'bypass-tunnel-reminder') {
-                    return originalSetRequestHeader.apply(this, [header, value]);
-                  }
-                };
-                const originalSend = XMLHttpRequest.prototype.send;
-                XMLHttpRequest.prototype.send = function(...args) {
-                  this.setRequestHeader('bypass-tunnel-reminder', '1');
-                  return originalSend.apply(this, args);
-                };
-              })();
-            `,
+            __html: JSON.stringify(webSiteSchema).replace(/</g, '\\u003c'),
           }}
         />
         <TopNav />

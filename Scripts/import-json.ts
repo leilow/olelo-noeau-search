@@ -44,10 +44,9 @@ async function importPhrases() {
       console.error('\n❌ ERROR: The phrases table does not exist!');
       console.error('You need to run the database migration first.\n');
       console.log('Steps to fix:');
-      console.log('1. Go to: https://supabase.com/dashboard/project/qnenkfybrdxksetpfhze/sql/new');
-      console.log('2. Copy the contents of: supabase/migrations/001_initial_schema.sql');
-      console.log('3. Paste and click "Run"');
-      console.log('4. Then run this import script again: npm run import\n');
+      console.log('1. Open your Supabase project → SQL Editor');
+      console.log('2. Run the contents of: supabase/migrations/001_initial_schema.sql');
+      console.log('3. Then run: npm run import\n');
       process.exit(1);
     } else {
       console.error('❌ Error checking table:', tableCheckError.message);

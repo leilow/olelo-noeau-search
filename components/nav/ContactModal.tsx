@@ -42,14 +42,18 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             ×
           </button>
         </div>
-        <div>
-          <a
-            href="mailto:info@olelonoeau.com"
-            className="link-text text-lg hover:underline block"
-            style={{ color: '#2c2416' }}
-          >
-            info@olelonoeau.com
-          </a>
+        <div className="space-y-3">
+          <p className="text-text/80">
+            Want the database? Email me{' '}
+            <a
+              href="mailto:info@olelonoeau.com"
+              className="link-text hover:underline"
+              style={{ color: '#2c2416' }}
+            >
+              info@olelonoeau.com
+            </a>
+            .
+          </p>
         </div>
       </div>
     </div>

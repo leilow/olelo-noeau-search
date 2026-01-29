@@ -11,14 +11,11 @@ export async function proxy(request: NextRequest) {
   // Track visitors on page loads (non-API routes)
   if (!request.nextUrl.pathname.startsWith('/api')) {
     try {
-      // Fire and forget - don't block the request
-      // ⚠️ DEPLOYMENT NOTE: Remove bypass-tunnel-reminder header before deploying!
       fetch(`${request.nextUrl.origin}/api/visitors`, {
         method: 'POST',
         headers: {
           'x-forwarded-for': request.headers.get('x-forwarded-for') || '',
           'x-real-ip': request.headers.get('x-real-ip') || '',
-          'bypass-tunnel-reminder': '1', // TODO: Remove before deployment!
         },
       }).catch(() => {
         // Silently fail - visitor tracking shouldn't block requests
