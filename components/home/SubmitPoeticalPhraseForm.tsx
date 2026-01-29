@@ -1,6 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import Script from 'next/script';
+import { useState, useCallback } from 'react';
+
+const TURNSTILE_WIDGET_ID = 'turnstile-submit-phrase';
 
 export default function SubmitPoeticalPhraseForm() {
   const [formData, setFormData] = useState({
@@ -14,9 +17,18 @@ export default function SubmitPoeticalPhraseForm() {
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
   const [focusedField, setFocusedField] = useState<string | null>(null);
   const [hoveredField, setHoveredField] = useState<string | null>(null);
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
+
+  const turnstileCallback = useCallback((token: string) => {
+    setTurnstileToken(token);
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && !turnstileToken) {
+      setMessage({ type: 'error', text: 'Please complete the verification below.' });
+      return;
+    }
     setSubmitting(true);
     setMessage(null);
 
@@ -24,18 +36,22 @@ export default function SubmitPoeticalPhraseForm() {
       const response = await fetch('/api/submissions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, 'cf-turnstile-response': turnstileToken }),
       });
 
       if (response.ok) {
         setMessage({ type: 'success', text: 'Thank you! Your submission has been received and will be reviewed.' });
-        setFormData({ 
-          hawaiian_or_pidgin_phrase: '', 
-          english_meaning: '', 
-          kaona_deeper_meaning: '', 
+        setFormData({
+          hawaiian_or_pidgin_phrase: '',
+          english_meaning: '',
+          kaona_deeper_meaning: '',
           email: '',
-          can_share_publicly: false 
+          can_share_publicly: false,
         });
+        setTurnstileToken(null);
+        if (typeof window !== 'undefined' && (window as unknown as { turnstile?: { reset: (id?: string) => void } }).turnstile?.reset) {
+          (window as unknown as { turnstile: { reset: (id?: string) => void } }).turnstile.reset(TURNSTILE_WIDGET_ID);
+        }
       } else {
         setMessage({ type: 'error', text: 'There was an error submitting your phrase. Please try again.' });
       }
@@ -187,6 +203,23 @@ export default function SubmitPoeticalPhraseForm() {
             Can we share publicly?
           </label>
         </div>
+        {process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && (
+          <>
+            <Script
+              src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+              strategy="afterInteractive"
+              onLoad={() => {
+                (window as unknown as { turnstileSubmitCb: (token: string) => void }).turnstileSubmitCb = (token: string) => turnstileCallback(token);
+              }}
+            />
+            <div
+              className="cf-turnstile"
+              id={TURNSTILE_WIDGET_ID}
+              data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
+              data-callback="turnstileSubmitCb"
+            />
+          </>
+        )}
         {message && (
           <div className={`p-4 rounded-lg border ${
             message.type === 'success' 
