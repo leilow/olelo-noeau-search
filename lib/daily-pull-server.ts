@@ -1,9 +1,11 @@
 /**
  * Server-only: daily pull data (phrase + moon + weather).
  * Used by the daily-pull API route and by the home page server component.
+ * Cached per calendar day so we don't hit Supabase + weather API on every request.
  */
 
-import { createClient } from '@/lib/supabase/server';
+import { unstable_cache } from 'next/cache';
+import { createServiceClient } from '@/lib/supabase/service';
 import { getMoonPhase, getWeather } from '@/lib/daily-apis';
 import type { Phrase } from '@/lib/types/database';
 
@@ -25,9 +27,9 @@ export interface DailyPullResult {
   weather: string;
 }
 
-export async function getDailyPullData(): Promise<DailyPullResult | null> {
+async function getDailyPullDataUncached(): Promise<DailyPullResult | null> {
   try {
-    const supabase = await createClient();
+    const supabase = createServiceClient();
     if (!supabase) return null;
 
     const { count } = await supabase
@@ -62,6 +64,14 @@ export async function getDailyPullData(): Promise<DailyPullResult | null> {
     console.error('Error in getDailyPullData:', error);
     return null;
   }
+}
+
+export async function getDailyPullData(): Promise<DailyPullResult | null> {
+  const today = getDailyPullCacheDate();
+  return unstable_cache(getDailyPullDataUncached, ['daily-pull', today], {
+    revalidate: 3600, // 1 hour; same day stays cached
+    tags: ['daily-pull'],
+  })();
 }
 
 // For API route cache key
