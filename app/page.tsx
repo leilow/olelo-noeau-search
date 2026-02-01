@@ -2,7 +2,6 @@ import { Suspense } from 'react';
 import AboutProject from '@/components/home/AboutProject';
 import DailyPull from '@/components/home/DailyPull';
 import SubmitPoeticalPhraseForm from '@/components/home/SubmitPoeticalPhraseForm';
-import VisitorCount from '@/components/metrics/VisitorCount';
 import MembersCount from '@/components/metrics/MembersCount';
 import { getDailyPullData } from '@/lib/daily-pull-server';
 
@@ -42,7 +41,6 @@ export default function Home() {
               </Suspense>
             </div>
             <div className="lg:w-64 space-y-6">
-              <VisitorCount />
               <MembersCount />
             </div>
           </div>
