@@ -3,10 +3,12 @@ import DailyPull from '@/components/home/DailyPull';
 import SubmitPoeticalPhraseForm from '@/components/home/SubmitPoeticalPhraseForm';
 import VisitorCount from '@/components/metrics/VisitorCount';
 import MembersCount from '@/components/metrics/MembersCount';
+import { getDailyPullData } from '@/lib/daily-pull-server';
 
 export const dynamic = 'force-dynamic';
 
-export default function Home() {
+export default async function Home() {
+  const initialDailyPull = await getDailyPullData();
   return (
     <div className="min-h-screen bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-12">
@@ -20,7 +22,7 @@ export default function Home() {
           {/* Daily Pull and Metrics - side by side with varied widths */}
           <div className="flex flex-col lg:flex-row gap-8 items-start">
             <div className="flex-1 max-w-2xl">
-              <DailyPull />
+              <DailyPull initialData={initialDailyPull} />
             </div>
             <div className="lg:w-64 space-y-6">
               <VisitorCount />

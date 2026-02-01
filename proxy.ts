@@ -1,6 +1,13 @@
 import { NextResponse, type NextRequest } from 'next/server';
+import { isAllowedApiRequest } from '@/lib/api-auth';
 
 export async function proxy(request: NextRequest) {
+  if (request.nextUrl.pathname.startsWith('/api')) {
+    if (!isAllowedApiRequest(request)) {
+      return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+    }
+  }
+
   let response = NextResponse.next({
     request: {
       headers: request.headers,
@@ -10,12 +17,15 @@ export async function proxy(request: NextRequest) {
   // Track visitors on page loads (non-API routes)
   if (!request.nextUrl.pathname.startsWith('/api')) {
     try {
+      const headers: Record<string, string> = {
+        'x-forwarded-for': request.headers.get('x-forwarded-for') || '',
+        'x-real-ip': request.headers.get('x-real-ip') || '',
+      };
+      const secret = process.env.INTERNAL_API_SECRET;
+      if (secret) headers['x-internal-secret'] = secret;
       fetch(`${request.nextUrl.origin}/api/visitors`, {
         method: 'POST',
-        headers: {
-          'x-forwarded-for': request.headers.get('x-forwarded-for') || '',
-          'x-real-ip': request.headers.get('x-real-ip') || '',
-        },
+        headers,
       }).catch(() => {
         // Silently fail - visitor tracking shouldn't block requests
       });

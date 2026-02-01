@@ -16,8 +16,7 @@ export default function AboutProject() {
           There might be some errors in the data, so please report them if you find any.
         </p>
         <p>
-          The data is maintained in a JSON file and serves as the source of truth for all
-          phrase content originally published on this website: <a href="https://www.olelonoeau.com" target="_blank" rel="noopener noreferrer">trussell dot come</a>.
+          The content was originally published on this website: <a href="https://www.olelonoeau.com" target="_blank" rel="noopener noreferrer">trussell dot come</a>.
           Heʻs been credited; please do the same. And buy the book if you can <a href="https://bishopmuseumpress.org/products/olelo-no-eau-hawaiian-proverbs-poetical-sayings-1?_pos=1&_sid=c5910c547&_ss=r" target="_blank" rel="noopener noreferrer"> from Bishop Museum Press!</a>
         </p>
       </div>
