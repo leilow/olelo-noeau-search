@@ -13,7 +13,7 @@ Search + index for ʻōlelo noʻeau (Hawaiian poetical sayings). Next.js, Supaba
 ## Deploy
 
 - Set env vars on your host (Vercel, etc.): `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `IP_HASH_SALT`, `NEXT_PUBLIC_BASE_URL` (e.g. `https://www.olelonoeau.com`)
-- **API access:** `/api/*` is not public: only same-origin (Origin/Referer from your site) or requests with `x-internal-secret` are allowed. Set `INTERNAL_API_SECRET` so server-side calls (e.g. visitor tracking) can hit the API. Optional: `ALLOWED_API_ORIGINS` (comma-separated) for extra origins.
+- **API access:** `/api/*` is not public: only same-origin or requests with `x-internal-secret` are allowed. Set `INTERNAL_API_SECRET` in your host’s env (e.g. Vercel → Settings → Environment Variables) so **visitor tracking** works: the proxy POSTs to `/api/visitors` with this secret; without it the POST is 403 and unique visitors won’t update. Optional: `ALLOWED_API_ORIGINS` (comma-separated) for extra origins.
 - `npm run build` && `npm start` (or connect repo to host)
 
 **Production: database not loading?**  

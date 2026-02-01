@@ -25,22 +25,32 @@ export async function POST(request: NextRequest) {
     const supabase = createServiceClient();
     if (!supabase) return NextResponse.json({ success: true });
 
-    // Upsert visitor (update last_seen if exists, insert if not)
-    const { error } = await supabase
+    // Upsert visitor (unique count + first_seen/last_seen)
+    const { error: visitorError } = await supabase
       .from('visitors')
       .upsert(
         {
           ip_hash: hash,
           last_seen: new Date().toISOString(),
         },
-        {
-          onConflict: 'ip_hash',
-        }
+        { onConflict: 'ip_hash' }
       );
 
-    if (error) {
-      console.error('Error upserting visitor:', error);
+    if (visitorError) {
+      console.error('Error upserting visitor:', visitorError);
       return NextResponse.json({ error: 'Failed to track visitor' }, { status: 500 });
+    }
+
+    // Log this visit (every page load)
+    const path = request.headers.get('x-visited-path') ?? '';
+    const { error: visitError } = await supabase.from('visits').insert({
+      ip_hash: hash,
+      path: path.slice(0, 500),
+    });
+
+    if (visitError) {
+      console.error('Error logging visit:', visitError);
+      // Don't fail the request; visitor was already recorded
     }
 
     return NextResponse.json({ success: true });

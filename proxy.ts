@@ -14,12 +14,13 @@ export async function proxy(request: NextRequest) {
     },
   });
 
-  // Track visitors on page loads (non-API routes)
+  // Track every visit (non-API routes): unique visitor + visit log
   if (!request.nextUrl.pathname.startsWith('/api')) {
     try {
       const headers: Record<string, string> = {
         'x-forwarded-for': request.headers.get('x-forwarded-for') || '',
         'x-real-ip': request.headers.get('x-real-ip') || '',
+        'x-visited-path': request.nextUrl.pathname,
       };
       const secret = process.env.INTERNAL_API_SECRET;
       if (secret) headers['x-internal-secret'] = secret;

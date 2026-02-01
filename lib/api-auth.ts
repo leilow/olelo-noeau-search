@@ -57,7 +57,8 @@ function getOriginOrRefererHost(request: NextRequest): string | null {
 /**
  * Returns true if the request is allowed to hit /api/*:
  * - Has valid x-internal-secret (server-only), or
- * - Origin/Referer is in the allowlist (your site or localhost).
+ * - Origin/Referer is in the allowlist (your site or localhost), or
+ * - POST /api/visitors with no Origin/Referer in dev (proxy fire-and-forget).
  */
 export function isAllowedApiRequest(request: NextRequest): boolean {
   const secret = process.env.INTERNAL_API_SECRET;
@@ -65,9 +66,19 @@ export function isAllowedApiRequest(request: NextRequest): boolean {
     return true;
   }
   const host = getOriginOrRefererHost(request);
-  if (!host) return false;
-  const allowed = getAllowedOrigins();
-  return allowed.includes(host);
+  if (host) {
+    const allowed = getAllowedOrigins();
+    if (allowed.includes(host)) return true;
+  }
+  // Server-side POST to /api/visitors (proxy) has no Origin/Referer. In dev allow it so tracking works without INTERNAL_API_SECRET.
+  if (
+    process.env.NODE_ENV === 'development' &&
+    request.method === 'POST' &&
+    request.nextUrl.pathname === '/api/visitors'
+  ) {
+    return true;
+  }
+  return false;
 }
 
 export { INTERNAL_SECRET_HEADER };
