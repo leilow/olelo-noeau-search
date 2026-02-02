@@ -51,14 +51,18 @@ export async function POST(request: NextRequest) {
         // no body or not JSON
       }
     }
+    const pathStr = (path ?? '').slice(0, 500);
     const { error: visitError } = await supabase.from('visits').insert({
       ip_hash: hash,
-      path: path.slice(0, 500),
+      path: pathStr,
     });
 
     if (visitError) {
-      console.error('Error logging visit:', visitError);
-      // Don't fail the request; visitor was already recorded
+      console.error('Error logging visit:', visitError.message, visitError.details);
+      return NextResponse.json(
+        { success: false, error: 'Visit not recorded', details: visitError.message },
+        { status: 500 }
+      );
     }
 
     return NextResponse.json({ success: true });
