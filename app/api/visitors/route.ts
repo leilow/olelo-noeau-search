@@ -59,10 +59,7 @@ export async function POST(request: NextRequest) {
 
     if (visitError) {
       console.error('Error logging visit:', visitError.message, visitError.details);
-      return NextResponse.json(
-        { success: false, error: 'Visit not recorded', details: visitError.message },
-        { status: 500 }
-      );
+      // Don't fail the request; visitor was already recorded
     }
 
     return NextResponse.json({ success: true });

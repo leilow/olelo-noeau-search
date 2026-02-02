@@ -1,4 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import { Suspense } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import TopNav from "@/components/nav/TopNav";
 import FooterNav from "@/components/nav/FooterNav";
@@ -40,7 +42,9 @@ export default function RootLayout({
     <html lang="en">
       {/* Proprietary. © All rights reserved. */}
       <body>
-        <VisitTracker />
+        <Suspense fallback={null}>
+          <VisitTracker />
+        </Suspense>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -52,6 +56,7 @@ export default function RootLayout({
           {children}
         </main>
         <FooterNav />
+        <SpeedInsights />
       </body>
     </html>
   );

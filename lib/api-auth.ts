@@ -69,9 +69,16 @@ export function isAllowedApiRequest(request: NextRequest): boolean {
   if (host) {
     const allowed = getAllowedOrigins();
     if (allowed.includes(host)) return true;
+    // POST /api/visitors: allow when Origin matches request host (same-origin) so client ping always works
+    if (
+      request.method === 'POST' &&
+      request.nextUrl.pathname === '/api/visitors' &&
+      host === request.nextUrl.origin
+    ) {
+      return true;
+    }
   }
   // Server-side POST to /api/visitors (proxy) has no Origin/Referer. Allow it so tracking works
-  // even when INTERNAL_API_SECRET isn't available in Edge (e.g. Vercel). Other /api routes still require secret or same-origin.
   if (
     request.method === 'POST' &&
     request.nextUrl.pathname === '/api/visitors' &&
