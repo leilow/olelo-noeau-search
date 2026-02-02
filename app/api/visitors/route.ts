@@ -41,8 +41,16 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Failed to track visitor' }, { status: 500 });
     }
 
-    // Log this visit (every page load)
-    const path = request.headers.get('x-visited-path') ?? '';
+    // Log this visit (every page load). Path from body (client ping) or header (server).
+    let path = request.headers.get('x-visited-path') ?? '';
+    if (!path) {
+      try {
+        const body = await request.json();
+        if (body && typeof body.path === 'string') path = body.path;
+      } catch {
+        // no body or not JSON
+      }
+    }
     const { error: visitError } = await supabase.from('visits').insert({
       ip_hash: hash,
       path: path.slice(0, 500),

@@ -1,6 +1,59 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { isAllowedApiRequest } from '@/lib/api-auth';
 
+/** Edge-safe SHA-256 hex hash (Web Crypto). */
+async function sha256Hex(input: string): Promise<string> {
+  const buf = await crypto.subtle.digest(
+    'SHA-256',
+    new TextEncoder().encode(input)
+  );
+  return Array.from(new Uint8Array(buf))
+    .map((b) => b.toString(16).padStart(2, '0'))
+    .join('');
+}
+
+/** Track visit by writing to Supabase REST from Edge (no self-fetch). */
+async function trackVisit(request: NextRequest): Promise<void> {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const salt = process.env.IP_HASH_SALT;
+  if (!url || !serviceKey || !salt) return;
+
+  const forwarded = request.headers.get('x-forwarded-for');
+  const ip = forwarded ? forwarded.split(',')[0].trim() : request.headers.get('x-real-ip') || 'unknown';
+  const hash = await sha256Hex(ip + salt);
+  const now = new Date().toISOString();
+  const path = request.nextUrl.pathname.slice(0, 500);
+
+  const rest = `${url.replace(/\/$/, '')}/rest/v1`;
+  const headers: Record<string, string> = {
+    apikey: serviceKey,
+    Authorization: `Bearer ${serviceKey}`,
+    'Content-Type': 'application/json',
+    Prefer: 'resolution=merge-duplicates',
+  };
+
+  const controller = new AbortController();
+  const t = setTimeout(() => controller.abort(), 2500);
+
+  try {
+    await fetch(`${rest}/visitors`, {
+      method: 'POST',
+      headers: { ...headers, Prefer: 'resolution=merge-duplicates' },
+      body: JSON.stringify({ ip_hash: hash, last_seen: now }),
+      signal: controller.signal,
+    });
+    await fetch(`${rest}/visits`, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({ ip_hash: hash, path }),
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(t);
+  }
+}
+
 export async function proxy(request: NextRequest) {
   if (request.nextUrl.pathname.startsWith('/api')) {
     if (!isAllowedApiRequest(request)) {
@@ -14,24 +67,12 @@ export async function proxy(request: NextRequest) {
     },
   });
 
-  // Track every visit (non-API routes): unique visitor + visit log
+  // Track every visit (non-API routes): write to Supabase from Edge so we don't rely on self-fetch.
   if (!request.nextUrl.pathname.startsWith('/api')) {
     try {
-      const headers: Record<string, string> = {
-        'x-forwarded-for': request.headers.get('x-forwarded-for') || '',
-        'x-real-ip': request.headers.get('x-real-ip') || '',
-        'x-visited-path': request.nextUrl.pathname,
-      };
-      const secret = process.env.INTERNAL_API_SECRET;
-      if (secret) headers['x-internal-secret'] = secret;
-      fetch(`${request.nextUrl.origin}/api/visitors`, {
-        method: 'POST',
-        headers,
-      }).catch(() => {
-        // Silently fail - visitor tracking shouldn't block requests
-      });
-    } catch (error) {
-      // Silently fail
+      await trackVisit(request);
+    } catch {
+      // Don't block response on tracking errors
     }
   }
 
