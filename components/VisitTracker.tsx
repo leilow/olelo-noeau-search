@@ -8,7 +8,16 @@ import { useEffect } from 'react';
  */
 export default function VisitTracker() {
   useEffect(() => {
-    const path = typeof window !== 'undefined' ? window.location.pathname : '';
+    let path = '';
+    if (typeof window !== 'undefined') {
+      path = window.location.pathname;
+      if (path === '/search') {
+        const q = new URLSearchParams(window.location.search).get('q');
+        if (q?.trim()) path += '?q=' + encodeURIComponent(q.trim());
+      } else {
+        path += window.location.search;
+      }
+    }
     fetch('/api/visitors', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
