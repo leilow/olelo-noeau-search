@@ -57,8 +57,7 @@ function getOriginOrRefererHost(request: NextRequest): string | null {
 /**
  * Returns true if the request is allowed to hit /api/*:
  * - Has valid x-internal-secret (server-only), or
- * - Origin/Referer is in the allowlist (your site or localhost), or
- * - POST /api/visitors with no Origin/Referer in dev (proxy fire-and-forget).
+ * - Origin/Referer is in the allowlist (your site or localhost).
  */
 export function isAllowedApiRequest(request: NextRequest): boolean {
   const secret = process.env.INTERNAL_API_SECRET;
@@ -69,22 +68,6 @@ export function isAllowedApiRequest(request: NextRequest): boolean {
   if (host) {
     const allowed = getAllowedOrigins();
     if (allowed.includes(host)) return true;
-    // POST /api/visitors: allow when Origin matches request host (same-origin) so client ping always works
-    if (
-      request.method === 'POST' &&
-      request.nextUrl.pathname === '/api/visitors' &&
-      host === request.nextUrl.origin
-    ) {
-      return true;
-    }
-  }
-  // Server-side POST to /api/visitors (proxy) has no Origin/Referer. Allow it so tracking works
-  if (
-    request.method === 'POST' &&
-    request.nextUrl.pathname === '/api/visitors' &&
-    !getOriginOrRefererHost(request)
-  ) {
-    return true;
   }
   return false;
 }

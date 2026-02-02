@@ -1,11 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Suspense } from "react";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import TopNav from "@/components/nav/TopNav";
 import FooterNav from "@/components/nav/FooterNav";
-import VisitTracker from "@/components/VisitTracker";
 
 export const metadata: Metadata = {
   title: "ʻŌlelo Noʻeau Search",
@@ -43,9 +41,6 @@ export default function RootLayout({
     <html lang="en">
       {/* Proprietary. © All rights reserved. */}
       <body>
-        <Suspense fallback={null}>
-          <VisitTracker />
-        </Suspense>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
