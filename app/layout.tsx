@@ -8,6 +8,9 @@ import FooterNav from "@/components/nav/FooterNav";
 export const metadata: Metadata = {
   title: "ʻŌlelo Noʻeau Search",
   description: "A searchable index of ʻōlelo noʻeau - Hawaiian poetical sayings",
+  verification: {
+    google: "google9573179e9893ec90",
+  },
 };
 
 export const viewport: Viewport = {
