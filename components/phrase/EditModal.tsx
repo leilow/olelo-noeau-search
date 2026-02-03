@@ -51,11 +51,11 @@ export default function EditModal({ isOpen, onClose, phraseNumber }: EditModalPr
             Email us to suggest an edit for phrase #{phraseNumber}:
           </p>
           <a
-            href={`mailto:info@olelonoeau.com?subject=${emailSubject}&body=${emailBody}`}
+            href={`mailto:olelonoeausearch@gmail.com?subject=${emailSubject}&body=${emailBody}`}
             className="link-text text-lg hover:underline block"
             style={{ color: '#2c2416' }}
           >
-            info@olelonoeau.com
+            olelonoeausearch@gmail.com
           </a>
         </div>
       </div>
