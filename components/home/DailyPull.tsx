@@ -3,16 +3,16 @@
 import { Phrase } from '@/lib/types/database';
 import PhraseCard from '@/components/phrase/PhraseCard';
 import { useState, useEffect } from 'react';
+import type { DailyPullResult } from '@/lib/daily-pull-server';
 
-interface DailyPullData {
-  phrase: Phrase;
-  moonPhase: string;
-  weather: string;
+export interface DailyPullProps {
+  /** When provided (server-rendered), first paint shows daily phrase without client fetch. */
+  initialData?: DailyPullResult | null;
 }
 
-export default function DailyPull() {
-  const [data, setData] = useState<DailyPullData | null>(null);
-  const [loading, setLoading] = useState(true);
+export default function DailyPull({ initialData }: DailyPullProps) {
+  const [data, setData] = useState<DailyPullResult | null>(initialData ?? null);
+  const [loading, setLoading] = useState(!initialData);
   const [error, setError] = useState<string | null>(null);
   const [isRandom, setIsRandom] = useState(false);
 
@@ -57,8 +57,9 @@ export default function DailyPull() {
   };
 
   useEffect(() => {
+    if (initialData) return;
     fetchDailyPull();
-  }, []);
+  }, [initialData]);
 
   if (loading && !data) {
     return (

@@ -46,11 +46,11 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
           <p className="text-text/80">
             Questions? Comments? Email me{' '}
             <a
-              href="mailto:info@olelonoeau.com"
+              href="mailto:olelonoeausearch@gmail.com"
               className="link-text hover:underline"
               style={{ color: '#2c2416' }}
             >
-              info@olelonoeau.com
+              olelonoeausearch@gmail.com
             </a>
             !
           </p>

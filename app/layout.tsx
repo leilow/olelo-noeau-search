@@ -1,4 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import TopNav from "@/components/nav/TopNav";
 import FooterNav from "@/components/nav/FooterNav";
@@ -6,6 +8,9 @@ import FooterNav from "@/components/nav/FooterNav";
 export const metadata: Metadata = {
   title: "ʻŌlelo Noʻeau Search",
   description: "A searchable index of ʻōlelo noʻeau - Hawaiian poetical sayings",
+  verification: {
+    google: "google9573179e9893ec90",
+  },
 };
 
 export const viewport: Viewport = {
@@ -50,6 +55,8 @@ export default function RootLayout({
           {children}
         </main>
         <FooterNav />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

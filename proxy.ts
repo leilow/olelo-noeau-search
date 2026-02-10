@@ -1,28 +1,18 @@
 import { NextResponse, type NextRequest } from 'next/server';
+import { isAllowedApiRequest } from '@/lib/api-auth';
 
 export async function proxy(request: NextRequest) {
+  if (request.nextUrl.pathname.startsWith('/api')) {
+    if (!isAllowedApiRequest(request)) {
+      return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+    }
+  }
+
   let response = NextResponse.next({
     request: {
       headers: request.headers,
     },
   });
-
-  // Track visitors on page loads (non-API routes)
-  if (!request.nextUrl.pathname.startsWith('/api')) {
-    try {
-      fetch(`${request.nextUrl.origin}/api/visitors`, {
-        method: 'POST',
-        headers: {
-          'x-forwarded-for': request.headers.get('x-forwarded-for') || '',
-          'x-real-ip': request.headers.get('x-real-ip') || '',
-        },
-      }).catch(() => {
-        // Silently fail - visitor tracking shouldn't block requests
-      });
-    } catch (error) {
-      // Silently fail
-    }
-  }
 
   // Handle Supabase auth (skip if env not set, e.g. build or misconfig)
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
