@@ -1,11 +1,11 @@
 /**
  * Server-only: daily pull data (phrase + moon + weather).
  * Used by the daily-pull API route and by the home page server component.
- * Cached per calendar day so we don't hit Supabase + weather API on every request.
+ * Phrases are bundled statically; external API results are cached per day.
  */
 
 import { unstable_cache } from 'next/cache';
-import { createServiceClient } from '@/lib/supabase/service';
+import { phrases } from '@/lib/phrases/data';
 import { getMoonPhase, getWeather } from '@/lib/daily-apis';
 import type { Phrase } from '@/lib/types/database';
 
@@ -29,26 +29,14 @@ export interface DailyPullResult {
 
 async function getDailyPullDataUncached(): Promise<DailyPullResult | null> {
   try {
-    const supabase = createServiceClient();
-    if (!supabase) return null;
-
-    const { count } = await supabase
-      .from('phrases')
-      .select('*', { count: 'exact', head: true });
-
-    if (!count || count === 0) return null;
+    if (phrases.length === 0) return null;
 
     const hawaiiDate = new Date();
     const dayOfYear = getDayOfYear(hawaiiDate);
-    const phraseIndex = dayOfYear % count;
+    const phraseIndex = dayOfYear % phrases.length;
 
-    const { data: phrases, error } = await supabase
-      .from('phrases')
-      .select('*')
-      .order('phrase_numbers', { ascending: true })
-      .range(phraseIndex, phraseIndex);
-
-    if (error || !phrases || phrases.length === 0) return null;
+    const phrase = phrases[phraseIndex];
+    if (!phrase) return null;
 
     const [moonPhase, weather] = await Promise.all([
       getMoonPhase(),
@@ -56,7 +44,7 @@ async function getDailyPullDataUncached(): Promise<DailyPullResult | null> {
     ]);
 
     return {
-      phrase: phrases[0] as Phrase,
+      phrase,
       moonPhase,
       weather,
     };
@@ -69,7 +57,7 @@ async function getDailyPullDataUncached(): Promise<DailyPullResult | null> {
 export async function getDailyPullData(): Promise<DailyPullResult | null> {
   const today = getDailyPullCacheDate();
   return unstable_cache(getDailyPullDataUncached, ['daily-pull', today], {
-    revalidate: 3600, // 1 hour; same day stays cached
+    revalidate: 3600,
     tags: ['daily-pull'],
   })();
 }
