@@ -4,6 +4,7 @@ import { createServiceClient } from '@/lib/supabase/service';
 export async function GET() {
   try {
     const supabase = createServiceClient();
+    if (!supabase) return NextResponse.json({ count: 0 });
     const { count, error } = await supabase
       .from('visitors')
       .select('*', { count: 'exact', head: true });
